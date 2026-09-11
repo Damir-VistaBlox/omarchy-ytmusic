@@ -1,4 +1,30 @@
-# YouTube Music for Omarchy (`damir.ytmusic`)
+```text
+                 ▄▄▄
+ ▄█████▄    ▄███████████▄    ▄███████   ▄███████   ▄███████   ▄█   █▄    ▄█   █▄
+███   ███  ███   ███   ███  ███   ███  ███   ███  ███   ███  ███   ███  ███   ███
+███   ███  ███   ███   ███  ███   ███  ███   ███  ███   █▀   ███   ███  ███   ███
+███   ███  ███   ███   ███ ▄███▄▄▄███ ▄███▄▄▄██▀  ███       ▄███▄▄▄███▄ ███▄▄▄███
+███   ███  ███   ███   ███ ▀███▀▀▀███ ▀███▀▀▀▀    ███      ▀▀███▀▀▀███  ▀▀▀▀▀▀███
+███   ███  ███   ███   ███  ███   ███ ██████████  ███   █▄   ███   ███  ▄██   ███
+███   ███  ███   ███   ███  ███   ███  ███   ███  ███   ███  ███   ███  ███   ███
+ ▀█████▀    ▀█   ███   █▀   ███   █▀   ███   ███  ███████▀   ███   █▀    ▀█████▀
+                                       ███   █▀
+
+           ━━━━━━━━  YouTube Music · a native Omarchy plugin  ━━━━━━━━
+```
+
+<div align="center">
+
+# YouTube Music for Omarchy
+
+[![Release](https://img.shields.io/github/v/release/Damir-VistaBlox/omarchy-ytmusic?label=release)](https://github.com/Damir-VistaBlox/omarchy-ytmusic/releases)
+[![License: MIT](https://img.shields.io/github/license/Damir-VistaBlox/omarchy-ytmusic)](LICENSE)
+[![Omarchy shell plugin](https://img.shields.io/badge/Omarchy-shell%20plugin-1f2335)](https://github.com/basecamp/omarchy)
+![Memory](https://img.shields.io/badge/memory-~75%20MiB%20playing%20%C2%B7%200%20idle-2ea44f)
+
+Plugin id `damir.ytmusic` · the Omarchy logo is from [basecamp/omarchy](https://github.com/basecamp/omarchy) (MIT)
+
+</div>
 
 YouTube Music for the Omarchy bar without a browser: a native panel inside
 `omarchy-shell`, [ytmusicapi](https://github.com/sigma67/ytmusicapi) for search
@@ -8,6 +34,42 @@ downloaded to disk.
 Version 1.0.0. Not affiliated with YouTube or Google: it uses the unofficial
 ytmusicapi and yt-dlp, which can break when YouTube changes something
 (`omarchy update` usually brings the yt-dlp fix).
+
+## At a glance
+
+- 🔎 **Search** as you type, with suggestions and your recent searches
+- 🎶 **Queue** with shuffle, repeat and autoplay (similar songs when it runs out)
+- 📚 **Your library**: playlists (create, add, remove, delete), likes and Liked Music, History, Home
+- 👤 **Artist and album pages**, one click from what's playing
+- ⏯️ **Media keys and OSD** over MPRIS; the bar shows an icon or scrolling now-playing text
+- ⚡ **Fast starts**: streams are looked up ahead, pages and covers come from a disk cache
+- 🪶 **Light**: no browser; ~75 MiB while playing, nothing when idle; resumes where you stopped
+
+```text
+╭─ Now ─── Search ─── Library ─── Home ──────────────────────
+│
+│   ██████████    Around the World
+│   ██ ♪  ♫ ██    Daft Punk
+│   ██████████    Homework
+│
+│   ━━━━━━━━━━━━━━━━━━━━━━●──────────────────────   2:31 / 7:09
+│
+│      ♥      ↔      |◄     ■■     ►|      ⟲       +
+│
+│   QUEUE  1 / 11                      Autoplay     Clear
+│   ► Around the World · Daft Punk                     7:09
+│     Da Funk · Daft Punk                              5:28
+│     One More Time · Daft Punk                        5:20
+╰─                                    (a sketch of the Now tab)
+```
+
+```text
+Memory while playing (PSS, measured on a 16 GB Omarchy laptop)
+
+Chromium-based plugin   ████████████████████████████████████████   ~700 MiB
+this plugin, playing    ████                                        ~75 MiB
+this plugin, idle                                                     0 MiB
+```
 
 ## Install
 
@@ -66,6 +128,29 @@ headers instead.
 Bar display is a per-widget setting: `omarchy bar set damir.ytmusic display player`
 (or `icon`). The panel is created on first open and unloaded 45 s after it
 closes, so it holds no memory while you're not looking at it.
+
+## How it works
+
+```mermaid
+flowchart LR
+    subgraph shell["omarchy-shell (Quickshell)"]
+        bar["Bar widget<br/>icon or now playing"]
+        panel["Panel<br/>Now · Search · Library · Home"]
+        svc["Service<br/>queue · state · IPC"]
+        bar --> svc
+        panel --> svc
+    end
+    svc -- "JSON lines<br/>started on demand" --> worker["Python worker<br/>ytmusicapi · yt-dlp"]
+    svc -- "JSON IPC socket" --> mpv["mpv<br/>systemd user unit, audio only"]
+    worker --> yt[("YouTube Music")]
+    mpv --> yt
+    mpv -- "MPRIS" --> keys["Media keys · OSD"]
+```
+
+mpv runs in its own systemd user unit, so music keeps playing through shell
+restarts, and quits after 5 minutes idle (30 paused). The worker starts when
+the panel needs it and exits after 3 idle minutes. The panel is unloaded 45 s
+after it closes.
 
 ## Layout
 

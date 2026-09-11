@@ -45,23 +45,11 @@ ytmusicapi and yt-dlp, which can break when YouTube changes something
 - ⚡ **Fast starts**: streams are looked up ahead, pages and covers come from a disk cache
 - 🪶 **Light**: no browser; ~75 MiB while playing, nothing when idle; resumes where you stopped
 
-```text
-╭─ Now ─── Search ─── Library ─── Home ──────────────────────
-│
-│   ██████████    Around the World
-│   ██ ♪  ♫ ██    Daft Punk
-│   ██████████    Homework
-│
-│   ━━━━━━━━━━━━━━━━━━━━━━●──────────────────────   2:31 / 7:09
-│
-│      ♥      ↔      |◄     ■■     ►|      ⟲       +
-│
-│   QUEUE  1 / 11                      Autoplay     Clear
-│   ► Around the World · Daft Punk                     7:09
-│     Da Funk · Daft Punk                              5:28
-│     One More Time · Daft Punk                        5:20
-╰─                                    (a sketch of the Now tab)
-```
+<p align="center">
+  <img src="docs/screenshot-now.png" alt="Now tab: cover, seek bar, like, shuffle, transport, repeat, add to playlist, volume, and the queue with songs autoplay added" width="400">
+  &nbsp;
+  <img src="docs/screenshot-search.png" alt="Search tab: results for daft punk with filters, the top result and songs" width="400">
+</p>
 
 ```text
 Memory while playing (PSS, measured on a 16 GB Omarchy laptop)

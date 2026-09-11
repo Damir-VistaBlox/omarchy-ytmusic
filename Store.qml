@@ -127,6 +127,9 @@ Item {
   // answers are kept for the session, so backspacing asks nothing.
   property var suggestions: []
   property string _suggestFor: ""
+  // The text `suggestions` belong to (the field may hold something else,
+  // e.g. after an IPC search).
+  readonly property string suggestionsFor: _suggestFor
   property bool _suggesting: false
   property var _suggestCache: ({})
 

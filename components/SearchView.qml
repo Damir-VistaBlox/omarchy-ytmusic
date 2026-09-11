@@ -22,7 +22,8 @@ Item {
   property bool _completing: false
   readonly property var rows: !store ? []
     : searchField.text.trim() === "" ? Model.recentRows(store.recent, 8)
-    : (typing ? Model.suggestionRows(store.suggestions, suggestionIndex) : []).concat(resultRows)
+    : (typing && (suggestionIndex >= 0 || store.suggestionsFor === searchField.text.trim())
+        ? Model.suggestionRows(store.suggestions, suggestionIndex) : []).concat(resultRows)
   readonly property alias field: searchField
   readonly property alias results: resultList
 

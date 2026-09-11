@@ -1,0 +1,684 @@
+{
+ "title": "Random Access Memories",
+ "type": "Album",
+ "thumbnails": [
+  {
+   "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+   "width": 60,
+   "height": 60
+  },
+  {
+   "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+   "width": 120,
+   "height": 120
+  },
+  {
+   "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w226-h226-l90-rj",
+   "width": 226,
+   "height": 226
+  },
+  {
+   "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w544-h544-l90-rj",
+   "width": 544,
+   "height": 544
+  }
+ ],
+ "isExplicit": false,
+ "description": "Random Access Memories is the fourth and final studio album by the French electronic music duo Daft Punk. It was released on 17 May 2013 through Columbia Records. The album pays tribute to late 1970s and early 1980s American music, particularly from Los Angeles. This theme is reflected in the packaging and promotional campaign, which included billboards, television advertisements and a web series. Recording sessions took place from 2008 to 2012 at Henson, Conway and Capitol Studios in California, Electric Lady Studios in New York City, and Gang Recording Studio in Paris, France.\nFollowing the minimal production of their previous album, Human After All, Daft Punk recruited session musicians with the help of Chris Caswell to perform live instrumentation and limited the use of electronic instruments to drum machines, a custom-built modular synthesizer and vintage vocoders. It combines disco, progressive rock and pop, with contributions by Paul Jackson Jr., Giorgio Moroder, Chilly Gonzales, Julian Casablancas, Paul Williams, Caswell, Pharrell Williams, Nile Rodgers, Todd Edwards, Panda Bear and DJ Falcon.\n\nFrom Wikipedia (https://en.wikipedia.org/wiki/Random_...) under Creative Commons Attribution CC-BY-SA 3.0 (https://creativecommons.org/licenses/...)",
+ "descriptionRuns": [
+  {
+   "text": "Random Access Memories is the fourth and final studio album by the French electronic music duo Daft Punk. It was released on 17 May 2013 through Columbia Records. The album pays tribute to late 1970s and early 1980s American music, particularly from Los Angeles. This theme is reflected in the packaging and promotional campaign, which included billboards, television advertisements and a web series. Recording sessions took place from 2008 to 2012 at Henson, Conway and Capitol Studios in California, Electric Lady Studios in New York City, and Gang Recording Studio in Paris, France.\nFollowing the minimal production of their previous album, Human After All, Daft Punk recruited session musicians with the help of Chris Caswell to perform live instrumentation and limited the use of electronic instruments to drum machines, a custom-built modular synthesizer and vintage vocoders. It combines disco, progressive rock and pop, with contributions by Paul Jackson Jr., Giorgio Moroder, Chilly Gonzales, Julian Casablancas, Paul Williams, Caswell, Pharrell Williams, Nile Rodgers, Todd Edwards, Panda Bear and DJ Falcon.\n\nFrom Wikipedia ("
+  },
+  {
+   "text": "https://en.wikipedia.org/wiki/Random_...",
+   "url": "https://en.wikipedia.org/wiki/Random_Access_Memories"
+  },
+  {
+   "text": ") under Creative Commons Attribution CC-BY-SA 3.0 ("
+  },
+  {
+   "text": "https://creativecommons.org/licenses/...",
+   "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode"
+  },
+  {
+   "text": ")"
+  }
+ ],
+ "year": "2013",
+ "artists": [
+  {
+   "name": "Daft Punk",
+   "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+  }
+ ],
+ "trackCount": 13,
+ "duration": "1 hour, 14 minutes",
+ "audioPlaylistId": "OLAK5uy_kNhM2yaBTOVwrcZJepB1C9P3-n5_Sfy5c",
+ "likeStatus": "INDIFFERENT",
+ "tracks": [
+  {
+   "videoId": "IluRBvnYMoY",
+   "title": "Give Life Back to Music",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "54M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 1,
+   "duration": "4:36",
+   "duration_seconds": 276,
+   "creditsBrowseId": "MPTCzKSsP2084nU"
+  },
+  {
+   "videoId": "ajGKWk0auOc",
+   "title": "The Game of Love",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "28M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 2,
+   "duration": "5:23",
+   "duration_seconds": 323,
+   "creditsBrowseId": "MPTC_vOcbrUsmjM"
+  },
+  {
+   "videoId": "zhl-Cs1-sG4",
+   "title": "Giorgio by Moroder",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "94M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 3,
+   "duration": "9:05",
+   "duration_seconds": 545,
+   "creditsBrowseId": "MPTCZFZM6jDTWd4"
+  },
+  {
+   "videoId": "WLa3JlGANuU",
+   "title": "Within",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "41M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 4,
+   "duration": "3:49",
+   "duration_seconds": 229,
+   "creditsBrowseId": "MPTCiNjGNNoUjkk"
+  },
+  {
+   "videoId": "a5uQMwRMHcs",
+   "title": "Instant Crush (feat. Julian Casablancas)",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    },
+    {
+     "name": "Julian Casablancas",
+     "id": "UCWhpbdGLnR8XtXLr0yl2nYA"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "1.2B plays",
+   "communityVoteStatus": null,
+   "trackNumber": 5,
+   "duration": "5:38",
+   "duration_seconds": 338,
+   "creditsBrowseId": "MPTCkhnokW3Mw24"
+  },
+  {
+   "videoId": "NF-kLy44Hls",
+   "title": "Lose Yourself to Dance (feat. Pharrell Williams)",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    },
+    {
+     "name": "Pharrell Williams",
+     "id": "UCJw8VyO6e3v6S0327AsgwcQ"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "386M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 6,
+   "duration": "5:54",
+   "duration_seconds": 354,
+   "creditsBrowseId": "MPTCiU7oF4OXZSE"
+  },
+  {
+   "videoId": "0Gkhol2Q1og",
+   "title": "Touch (feat. Paul Williams)",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    },
+    {
+     "name": "Paul Williams",
+     "id": "UCPtp29kketDMCRawl_lT2oQ"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "35M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 7,
+   "duration": "8:19",
+   "duration_seconds": 499,
+   "creditsBrowseId": "MPTCRRMbhEdmhYw"
+  },
+  {
+   "videoId": "5NV6Rdv1a3I",
+   "title": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    },
+    {
+     "name": "Pharrell Williams",
+     "id": "UCJw8VyO6e3v6S0327AsgwcQ"
+    },
+    {
+     "name": "Nile Rodgers",
+     "id": "UCThde8ccpEr6sP8dIHZ-ceQ"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "1.8B plays",
+   "communityVoteStatus": null,
+   "trackNumber": 8,
+   "duration": "6:10",
+   "duration_seconds": 370,
+   "creditsBrowseId": "MPTC4D7u5KF7SP8"
+  },
+  {
+   "videoId": "3T0NqvdUiWI",
+   "title": "Beyond",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "15M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 9,
+   "duration": "4:51",
+   "duration_seconds": 291,
+   "creditsBrowseId": "MPTCRE_XX6jk2Lo"
+  },
+  {
+   "videoId": "wz7YiQdNmZ8",
+   "title": "Motherboard",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "11M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 10,
+   "duration": "5:42",
+   "duration_seconds": 342,
+   "creditsBrowseId": "MPTC3x-Q-iRvib4"
+  },
+  {
+   "videoId": "_ScM9pKlCfo",
+   "title": "Fragments of Time (feat. Todd Edwards)",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    },
+    {
+     "name": "Todd Edwards",
+     "id": "UCk_ezssvR9Os0VrMbmA3SWg"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "20M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 11,
+   "duration": "4:40",
+   "duration_seconds": 280,
+   "creditsBrowseId": "MPTC3rpQTqpFTF4"
+  },
+  {
+   "videoId": "LL-gyhZVvx0",
+   "title": "Doin' it Right (feat. Panda Bear)",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    },
+    {
+     "name": "Panda Bear",
+     "id": "UCB2qO9T8dkxOhIvZVqVkVcg"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "41M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 12,
+   "duration": "4:12",
+   "duration_seconds": 252,
+   "creditsBrowseId": "MPTCwmSkU6R9Zi8"
+  },
+  {
+   "videoId": "ZbbTmR6Xaag",
+   "title": "Contact",
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": "Random Access Memories",
+   "likeStatus": "INDIFFERENT",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "thumbnails": null,
+   "isAvailable": true,
+   "isExplicit": false,
+   "videoType": "MUSIC_VIDEO_TYPE_OMV",
+   "views": "22M plays",
+   "communityVoteStatus": null,
+   "trackNumber": 13,
+   "duration": "6:24",
+   "duration_seconds": 384,
+   "creditsBrowseId": "MPTCUoF1dFWKsVk"
+  }
+ ],
+ "other_versions": [
+  {
+   "title": "Random Access Memories (10th Anniversary Edition)",
+   "artists": [
+    {
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA",
+     "name": "Daft Punk"
+    }
+   ],
+   "browseId": "MPREb_eMBjPmWySjR",
+   "audioPlaylistId": "OLAK5uy_nYL9aiT25jXWfXpAN6B-WzMnMttvrzIxA",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/R5gMfIj_BHfnfJv_X24gjqUskPT9gwonal56ydS9bIkxsHxaaebzNwHjbIruM54pvcMwcI9PpTJpYPAJ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R5gMfIj_BHfnfJv_X24gjqUskPT9gwonal56ydS9bIkxsHxaaebzNwHjbIruM54pvcMwcI9PpTJpYPAJ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Album"
+  }
+ ],
+ "related_recommendations": [
+  {
+   "title": "Walking On A Dream (10th Anniversary Edition)",
+   "artists": [
+    {
+     "id": "UC39pUcAh8ipNPkA1W0dR0cA",
+     "name": "Empire Of The Sun"
+    }
+   ],
+   "browseId": "MPREb_nw4xeN2KShH",
+   "audioPlaylistId": "OLAK5uy_nqDIJIzZjX4LTESPMgmo_qZVvEqnmg2ek",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/HsEwUQH8tH10S_G33c9a-iv7iUJ7Ksbfbdpemb2B_uNqjYvf-hB4AMGHNf6gDurP4g4ZTa-3GnMGGwIa=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/HsEwUQH8tH10S_G33c9a-iv7iUJ7Ksbfbdpemb2B_uNqjYvf-hB4AMGHNf6gDurP4g4ZTa-3GnMGGwIa=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Album"
+  },
+  {
+   "title": "Talkie Walkie",
+   "artists": [
+    {
+     "id": "UCH_Q3OLUXLZNF0qmnY3bCXg",
+     "name": "Air"
+    }
+   ],
+   "browseId": "MPREb_JSYafMb7Dwk",
+   "audioPlaylistId": "OLAK5uy_nWEbqMSZoZewkD6ui4NM8zMGM6oCRout0",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/J_tI86bn1KRcb6MS-J0lKb6rX29ABxkD-JpyKI85C6-uC6cfyTrEz2YQ_gsq7_dAxQXomQtLpb4XAIPh=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/J_tI86bn1KRcb6MS-J0lKb6rX29ABxkD-JpyKI85C6-uC6cfyTrEz2YQ_gsq7_dAxQXomQtLpb4XAIPh=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Album"
+  },
+  {
+   "title": "Rock Dust Light Star",
+   "artists": [
+    {
+     "id": "UCUm5pe2-OfQVofZEQGuYGHg",
+     "name": "Jamiroquai"
+    }
+   ],
+   "browseId": "MPREb_FekuWRBzbQg",
+   "audioPlaylistId": "OLAK5uy_mFGcynAAqVM9u4Iidx8zBO-IxZEv_2RoY",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/OtSNKPnBrmRUMu6TG-eXGrkxKEQ-G5sb6Sbgu8CWePyXxeRwD1t39-rB1VGryC35Ajz00jydkNTgLp9hfw=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/OtSNKPnBrmRUMu6TG-eXGrkxKEQ-G5sb6Sbgu8CWePyXxeRwD1t39-rB1VGryC35Ajz00jydkNTgLp9hfw=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Album"
+  },
+  {
+   "title": "Something About Us (Love Theme from Interstella)",
+   "artists": [
+    {
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA",
+     "name": "Daft Punk"
+    }
+   ],
+   "browseId": "MPREb_DYSzDJvUSDu",
+   "audioPlaylistId": "OLAK5uy_k7Vjkx70cbt7gaSKcmyIbuv0gw6kEA2Hc",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/KWKJfEfasVPd53ha--VXKCrjQPtCYMbjtTAg25IhmODgYDud5bqPgZXwzaLY4Mhq1MTEjjvyFRbLSuw=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KWKJfEfasVPd53ha--VXKCrjQPtCYMbjtTAg25IhmODgYDud5bqPgZXwzaLY4Mhq1MTEjjvyFRbLSuw=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Single"
+  },
+  {
+   "title": "Ice On The Dune",
+   "artists": [
+    {
+     "id": "UC39pUcAh8ipNPkA1W0dR0cA",
+     "name": "Empire Of The Sun"
+    }
+   ],
+   "browseId": "MPREb_PrdPpkhxOxo",
+   "audioPlaylistId": "OLAK5uy_nWAdb-TJN5GmucLftWGwZa-EDHFjhRaw0",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/xNmvM7WmqEb9W6DmwyUAjgPpiBdxil2aDCCOz60q6nCC1QKYHwkHe6ZjoDCtA9grigU6MpVfJNvwF5BgjQ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/xNmvM7WmqEb9W6DmwyUAjgPpiBdxil2aDCCOz60q6nCC1QKYHwkHe6ZjoDCtA9grigU6MpVfJNvwF5BgjQ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Album"
+  },
+  {
+   "title": "Random Access Memories (Drumless Edition)",
+   "artists": [
+    {
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA",
+     "name": "Daft Punk"
+    }
+   ],
+   "browseId": "MPREb_OgeEnoHTsCm",
+   "audioPlaylistId": "OLAK5uy_k47QV7r7DblltHRB-1yRp-ZyrKYN4gkt0",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/wm1nkwlINP48XhoI_M_m5Z7IWIw742yukaiKKxqQGcskmB6TdcKZqTsBNChGW_I1BphPt7OkBwu9kRE=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/wm1nkwlINP48XhoI_M_m5Z7IWIw742yukaiKKxqQGcskmB6TdcKZqTsBNChGW_I1BphPt7OkBwu9kRE=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Album"
+  },
+  {
+   "title": "It's Album Time",
+   "artists": [
+    {
+     "id": "UC0IiRfiEDA0GLLMufhUUOng",
+     "name": "Todd Terje"
+    }
+   ],
+   "browseId": "MPREb_sURXIhBIwhl",
+   "audioPlaylistId": "OLAK5uy_mma9APQboOCl-sN9mKFP0Mybimd52wB6k",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/Az7z0MHBdBLbMhjIzl9XAp3fF0R4mZfzrRjqkvzdBLdkQj84Gw7yPQLO4NPxzBBJf2hu2OiVoGtUA1iR=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Az7z0MHBdBLbMhjIzl9XAp3fF0R4mZfzrRjqkvzdBLdkQj84Gw7yPQLO4NPxzBBJf2hu2OiVoGtUA1iR=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Album"
+  },
+  {
+   "title": "Reborn",
+   "artists": [
+    {
+     "id": "UC3V5kzHK2r4rbbXlf4OpFmw",
+     "name": "Kavinsky"
+    }
+   ],
+   "browseId": "MPREb_HEZJiqZwUXe",
+   "audioPlaylistId": "OLAK5uy_n2BJRzq8GO9UGo9SEiabTPaoqRwQ5vrgU",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/F13Lr_ZyedUP2-b0d31BAOxX3sO8jLbpQFwwLXU8Jb68NmHTNh3U7P37JejvNV5qu5o6O3g8TcyobUr6=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/F13Lr_ZyedUP2-b0d31BAOxX3sO8jLbpQFwwLXU8Jb68NmHTNh3U7P37JejvNV5qu5o6O3g8TcyobUr6=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Album"
+  },
+  {
+   "title": "Milestones",
+   "artists": [
+    {
+     "id": "UCxER5qGCpGKDPuh7z4ZDTlw",
+     "name": "Shook"
+    }
+   ],
+   "browseId": "MPREb_9XsRCNpaTtG",
+   "audioPlaylistId": "OLAK5uy_lrLw7GHLyhddEM7vHl_38W9J0djEEQ9IE",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/n6Izna5nWQX1bHvnXVpLaK-puIShwWj6yAKWdD51S5cN9vJOgY2K2NBM9OQn-42k4jZs7MBrHRwda71T=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/n6Izna5nWQX1bHvnXVpLaK-puIShwWj6yAKWdD51S5cN9vJOgY2K2NBM9OQn-42k4jZs7MBrHRwda71T=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Single"
+  },
+  {
+   "title": "Weekends",
+   "artists": [
+    {
+     "id": "UCB5roruiDPwRQr7hDI1tkqQ",
+     "name": "Midnight Generation"
+    },
+    {
+     "id": "UCMMSbQhcNZmDWZf0OnDxnew",
+     "name": "Modesta"
+    }
+   ],
+   "browseId": "MPREb_H50jooJXRJC",
+   "audioPlaylistId": "OLAK5uy_kuXRSZ0cYhBybqztg3vH3P3HHU8CuDoEU",
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/2L15zCRS5DI90U-6-Sa-TNRQnXlGce4YjaYalRz4FYtvB5OymKTtWUxGcBCAZ9O1fRUSxU56TjLUytuz=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/2L15zCRS5DI90U-6-Sa-TNRQnXlGce4YjaYalRz4FYtvB5OymKTtWUxGcBCAZ9O1fRUSxU56TjLUytuz=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "isExplicit": false,
+   "type": "Single"
+  }
+ ],
+ "duration_seconds": 4483
+}

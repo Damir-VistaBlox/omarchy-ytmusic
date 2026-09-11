@@ -1,0 +1,758 @@
+[
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+  "album": {
+   "name": "Random Access Memories",
+   "id": "MPREb_K8qWMWVqXGi"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "4D7u5KF7SP8",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "6:10",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   },
+   {
+    "name": "Pharrell Williams",
+    "id": "UCJw8VyO6e3v6S0327AsgwcQ"
+   },
+   {
+    "name": "Nile Rodgers",
+    "id": "UCThde8ccpEr6sP8dIHZ-ceQ"
+   }
+  ],
+  "duration_seconds": 370,
+  "views": "1.8B",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky (Radio Edit - feat. Pharrell Williams and Nile Rodgers)",
+  "album": {
+   "name": "Get Lucky (Radio Edit - feat. Pharrell Williams and Nile Rodgers)",
+   "id": "MPREb_yw4jv9byKCr"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "Rgrt_8mXrK8",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "4:09",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   },
+   {
+    "name": "Pharrell Williams",
+    "id": "UCJw8VyO6e3v6S0327AsgwcQ"
+   },
+   {
+    "name": "Nile Rodgers",
+    "id": "UCThde8ccpEr6sP8dIHZ-ceQ"
+   }
+  ],
+  "duration_seconds": 249,
+  "views": "1.8B",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/HqegqT4tr2u0IsOqAmUgILJunBwHHkjl9s5L7t02ZFcGsRQpqKtmM7YlkeqzDdXi926mNvAn2UJu48s=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/HqegqT4tr2u0IsOqAmUgILJunBwHHkjl9s5L7t02ZFcGsRQpqKtmM7YlkeqzDdXi926mNvAn2UJu48s=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Lose Yourself to Dance (feat. Pharrell Williams)",
+  "album": {
+   "name": "Random Access Memories",
+   "id": "MPREb_K8qWMWVqXGi"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "iU7oF4OXZSE",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "5:54",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   },
+   {
+    "name": "Pharrell Williams",
+    "id": "UCJw8VyO6e3v6S0327AsgwcQ"
+   }
+  ],
+  "duration_seconds": 354,
+  "views": "386M",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky (feat. Pharrell & Nile rodgers)",
+  "album": {
+   "name": "Rare RnB & New Jack 71",
+   "id": "MPREb_GPKU10x0HR4"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "C6CYfFhlwkc",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "4:08",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   }
+  ],
+  "duration_seconds": 248,
+  "views": "1.8B",
+  "isExplicit": true,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/_3MVZA1QsneTniGtXpL8AtRhxJZVOF9DyeczMO22lYFbYOnjXuU4NfOW0BGIWqUMULcImiUHnIIXJwF4=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/_3MVZA1QsneTniGtXpL8AtRhxJZVOF9DyeczMO22lYFbYOnjXuU4NfOW0BGIWqUMULcImiUHnIIXJwF4=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Instant Crush (feat. Julian Casablancas)",
+  "album": {
+   "name": "Random Access Memories",
+   "id": "MPREb_K8qWMWVqXGi"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "khnokW3Mw24",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "5:38",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   },
+   {
+    "name": "Julian Casablancas",
+    "id": "UCWhpbdGLnR8XtXLr0yl2nYA"
+   }
+  ],
+  "duration_seconds": 338,
+  "views": "1.2B",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky (Daft Punk Remix)",
+  "album": {
+   "name": "Get Lucky",
+   "id": "MPREb_Ho8dXDZrVQ1"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "NnC2MtBSdsg",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "10:33",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   },
+   {
+    "name": "Pharrell Williams",
+    "id": "UCJw8VyO6e3v6S0327AsgwcQ"
+   },
+   {
+    "name": "Nile Rodgers",
+    "id": "UCThde8ccpEr6sP8dIHZ-ceQ"
+   }
+  ],
+  "duration_seconds": 633,
+  "views": "2.4M",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/rrUL5g-tx62qytZg5wy9TUKCqc_uEOXhTvtIEvvGw-3NwPoAecah6ZtNlahITr3lcCIfYOdxxL8LjuHM=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/rrUL5g-tx62qytZg5wy9TUKCqc_uEOXhTvtIEvvGw-3NwPoAecah6ZtNlahITr3lcCIfYOdxxL8LjuHM=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky",
+  "album": {
+   "name": "ReAniMate 2.0: The CoVeRs eP",
+   "id": "MPREb_SQC7VfA1F5d"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "oUGCl2yE4Lg",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "3:09",
+  "year": null,
+  "artists": [
+   {
+    "name": "Halestorm",
+    "id": "UC5lcF1AOTeSEbeEPtfywewg"
+   }
+  ],
+  "duration_seconds": 189,
+  "views": "8.5M",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/2Enn9Dv2FrB_vOIfWPckvt1YAhcthKX9mXeFYI9VMq9eiwLgxAxSZAvH7BL128b61u6AC1U7Vh6sA7Ca=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/2Enn9Dv2FrB_vOIfWPckvt1YAhcthKX9mXeFYI9VMq9eiwLgxAxSZAvH7BL128b61u6AC1U7Vh6sA7Ca=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Give Life Back to Music",
+  "album": {
+   "name": "Random Access Memories",
+   "id": "MPREb_K8qWMWVqXGi"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "zKSsP2084nU",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "4:36",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   }
+  ],
+  "duration_seconds": 276,
+  "views": "54M",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Around the World",
+  "album": {
+   "name": "Homework",
+   "id": "MPREb_dMHztPsrDgN"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "Jb6gcoR266U",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "7:10",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   }
+  ],
+  "duration_seconds": 430,
+  "views": "294M",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/1gXa4i8m_NecS7xNqLqzxy6rdOWBh_L6U91YYv5ULNdmvvYT1Pr6ld7_SyUs5L52pEQheVyfU9SnXUm9=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/1gXa4i8m_NecS7xNqLqzxy6rdOWBh_L6U91YYv5ULNdmvvYT1Pr6ld7_SyUs5L52pEQheVyfU9SnXUm9=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "One More Time",
+  "album": {
+   "name": "Discovery",
+   "id": "MPREb_7ltM34kr0mH"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "fa5IWHDbftI",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "5:21",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   }
+  ],
+  "duration_seconds": 321,
+  "views": "845M",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "End of Line (From \"TRON: Legacy\"/Score)",
+  "album": {
+   "name": "TRON: Legacy",
+   "id": "MPREb_BQHrCwSBM37"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "NOMa56y_Was",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "2:37",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   }
+  ],
+  "duration_seconds": 157,
+  "views": "30M",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/wY7kATQ2X8UkxWku6-JuLMCfjoIP4V5Mc9B24wV_bNcombU5iOTEPIgRax9iuIpgGcBbsTuF2lhsSyPO=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/wY7kATQ2X8UkxWku6-JuLMCfjoIP4V5Mc9B24wV_bNcombU5iOTEPIgRax9iuIpgGcBbsTuF2lhsSyPO=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Harder, Better, Faster, Stronger",
+  "album": {
+   "name": "Discovery",
+   "id": "MPREb_7ltM34kr0mH"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "JhulBGMA7G4",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "3:47",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   }
+  ],
+  "duration_seconds": 227,
+  "views": "396M",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "GET LUCKY!",
+  "album": {
+   "name": "GET LUCKY!",
+   "id": "MPREb_sETeLnTCMjG"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "4-D_Xos8frA",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "3:41",
+  "year": null,
+  "artists": [
+   {
+    "name": "YdBB",
+    "id": "UCw-JbV7l4MwJjfd14QvKteQ"
+   }
+  ],
+  "duration_seconds": 221,
+  "views": "854K",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/VMvMQmOA0B-kXYuKMYKhHZLoU4LZ9_9iN8S9LGMs_GOWLWeR1xKwrt_Jg0fUX0SjHfAiae3_HqQTQ9M2UQ=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/VMvMQmOA0B-kXYuKMYKhHZLoU4LZ9_9iN8S9LGMs_GOWLWeR1xKwrt_Jg0fUX0SjHfAiae3_HqQTQ9M2UQ=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky",
+  "album": {
+   "name": "Get Lucky",
+   "id": "MPREb_ohDkB6GSTtj"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "2KPIShmFouY",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "4:10",
+  "year": null,
+  "artists": [
+   {
+    "name": "Funk Punk",
+    "id": "UCyk07PLeX8wvclVJJ379d-g"
+   }
+  ],
+  "duration_seconds": 250,
+  "views": "7.5K",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/WZDQ2_16V2MgokgfFBMkoNAZdWfGxuz6CqZt0HubzPyltyCVoY9U2E8NS5R6U8obrCgXk3FurpFnfCs=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/WZDQ2_16V2MgokgfFBMkoNAZdWfGxuz6CqZt0HubzPyltyCVoY9U2E8NS5R6U8obrCgXk3FurpFnfCs=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky",
+  "album": {
+   "name": "Around The World - A Daft Punk Tribute",
+   "id": "MPREb_bBLhlwZWbpp"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "2ibYb80uos0",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "2:29",
+  "year": null,
+  "artists": [
+   {
+    "name": "Acoustic Beat Roots",
+    "id": null
+   }
+  ],
+  "duration_seconds": 149,
+  "views": "16K",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/FLO5HpFiC1kV1HL301w2XHKulaYFlRJaEPWS-7hCaAgSIdTi0a2R-V1ReCQn2m7yIo3owCjMtfAPgnjm=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/FLO5HpFiC1kV1HL301w2XHKulaYFlRJaEPWS-7hCaAgSIdTi0a2R-V1ReCQn2m7yIo3owCjMtfAPgnjm=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky",
+  "album": {
+   "name": "Around The World - A Daft Punk Tribute",
+   "id": "MPREb_bBLhlwZWbpp"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "-E0cRZkPviY",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "3:43",
+  "year": null,
+  "artists": [
+   {
+    "name": "Flash Mob Jazz",
+    "id": null
+   }
+  ],
+  "duration_seconds": 223,
+  "views": "5.4M",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/FLO5HpFiC1kV1HL301w2XHKulaYFlRJaEPWS-7hCaAgSIdTi0a2R-V1ReCQn2m7yIo3owCjMtfAPgnjm=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/FLO5HpFiC1kV1HL301w2XHKulaYFlRJaEPWS-7hCaAgSIdTi0a2R-V1ReCQn2m7yIo3owCjMtfAPgnjm=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky",
+  "album": {
+   "name": "Get Lucky",
+   "id": "MPREb_tk8Wc2i12Tl"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "QYQTjgWPobk",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "4:22",
+  "year": null,
+  "artists": [
+   {
+    "name": "Jack Koden",
+    "id": "UC-L1rHUz4bWsM5-6B6LcxNQ"
+   }
+  ],
+  "duration_seconds": 262,
+  "views": "737K",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/qBR89fwnn78GyMljlBaMLe8OMc8QZpO2pRuQoIdFBVuJpZrTG--_QbEQMv-S2xMZZKtqNep5TNDypNxnWg=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/qBR89fwnn78GyMljlBaMLe8OMc8QZpO2pRuQoIdFBVuJpZrTG--_QbEQMv-S2xMZZKtqNep5TNDypNxnWg=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky (Metal Cover)",
+  "album": {
+   "name": "Leo Metal Covers Volume 7",
+   "id": "MPREb_dPM8ziZQ9Tv"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "D-cfH1V4RQ0",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "3:29",
+  "year": null,
+  "artists": [
+   {
+    "name": "Leo",
+    "id": "UCvFDzQ5R9dmSfQqWvOGEmXQ"
+   }
+  ],
+  "duration_seconds": 209,
+  "views": "223K",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/d6jZqe7pKb_DZX-upwo6UeWwIG9nMTZwTNuepioUXg1FWdJ8Nxq858CGwpignDs5R6OEGIBpDp8IAgUT=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/d6jZqe7pKb_DZX-upwo6UeWwIG9nMTZwTNuepioUXg1FWdJ8Nxq858CGwpignDs5R6OEGIBpDp8IAgUT=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Touch (feat. Paul Williams)",
+  "album": {
+   "name": "Random Access Memories",
+   "id": "MPREb_K8qWMWVqXGi"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "RRMbhEdmhYw",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "8:19",
+  "year": null,
+  "artists": [
+   {
+    "name": "Daft Punk",
+    "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+   },
+   {
+    "name": "Paul Williams",
+    "id": "UCPtp29kketDMCRawl_lT2oQ"
+   }
+  ],
+  "duration_seconds": 499,
+  "views": "35M",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ },
+ {
+  "category": "Songs",
+  "resultType": "song",
+  "title": "Get Lucky (Originally by Daft Punk)",
+  "album": {
+   "name": "The Covers, Vol .4",
+   "id": "MPREb_6J3kTbRU7A1"
+  },
+  "inLibrary": false,
+  "pinnedToListenAgain": false,
+  "videoId": "Z_1TFGtf4GU",
+  "videoType": "MUSIC_VIDEO_TYPE_ATV",
+  "duration": "4:02",
+  "year": null,
+  "artists": [
+   {
+    "name": "Adriana Vitale",
+    "id": "UCXfy8TdtEVDc8ZJITnyKMJA"
+   }
+  ],
+  "duration_seconds": 242,
+  "views": "5.8K",
+  "isExplicit": false,
+  "thumbnails": [
+   {
+    "url": "https://yt3.googleusercontent.com/HrQb176BagZD8_NpzasQdUo3Il6e55e0GkkEsYr_Fmt1--l92Vtik5Bh-XzGaGwWe16TzZDz5LH8pW0=w60-h60-l90-rj",
+    "width": 60,
+    "height": 60
+   },
+   {
+    "url": "https://yt3.googleusercontent.com/HrQb176BagZD8_NpzasQdUo3Il6e55e0GkkEsYr_Fmt1--l92Vtik5Bh-XzGaGwWe16TzZDz5LH8pW0=w120-h120-l90-rj",
+    "width": 120,
+    "height": 120
+   }
+  ]
+ }
+]

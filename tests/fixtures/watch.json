@@ -1,0 +1,2621 @@
+{
+ "tracks": [
+  {
+   "videoId": "4D7u5KF7SP8",
+   "title": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+   "length": "6:10",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    },
+    {
+     "name": "Pharrell Williams",
+     "id": "UCJw8VyO6e3v6S0327AsgwcQ"
+    },
+    {
+     "name": "Nile Rodgers",
+     "id": "UCThde8ccpEr6sP8dIHZ-ceQ"
+    }
+   ],
+   "album": {
+    "name": "Random Access Memories",
+    "id": "MPREb_K8qWMWVqXGi"
+   },
+   "year": "2013"
+  },
+  {
+   "videoId": "iU7oF4OXZSE",
+   "title": "Lose Yourself to Dance (feat. Pharrell Williams)",
+   "length": "5:54",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    },
+    {
+     "name": "Pharrell Williams",
+     "id": "UCJw8VyO6e3v6S0327AsgwcQ"
+    }
+   ],
+   "album": {
+    "name": "Random Access Memories",
+    "id": "MPREb_K8qWMWVqXGi"
+   },
+   "year": "2013"
+  },
+  {
+   "videoId": "tOaWhRATZqk",
+   "title": "lock / unlock (feat. benny blanco)",
+   "length": "3:02",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/I62Ur855ME58T3xNfTfiQzLmF-J4qnuqeULVbiTo7cuf5rIPY5USa_O8lXPbmRSI8Ihx6O0FDSDfXT_y=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/I62Ur855ME58T3xNfTfiQzLmF-J4qnuqeULVbiTo7cuf5rIPY5USa_O8lXPbmRSI8Ihx6O0FDSDfXT_y=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/I62Ur855ME58T3xNfTfiQzLmF-J4qnuqeULVbiTo7cuf5rIPY5USa_O8lXPbmRSI8Ihx6O0FDSDfXT_y=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/I62Ur855ME58T3xNfTfiQzLmF-J4qnuqeULVbiTo7cuf5rIPY5USa_O8lXPbmRSI8Ihx6O0FDSDfXT_y=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/I62Ur855ME58T3xNfTfiQzLmF-J4qnuqeULVbiTo7cuf5rIPY5USa_O8lXPbmRSI8Ihx6O0FDSDfXT_y=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/I62Ur855ME58T3xNfTfiQzLmF-J4qnuqeULVbiTo7cuf5rIPY5USa_O8lXPbmRSI8Ihx6O0FDSDfXT_y=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "j-hope",
+     "id": "UChLNWcjgBfZ9RPnzR5LM1mQ"
+    },
+    {
+     "name": "Nile Rodgers",
+     "id": "UCThde8ccpEr6sP8dIHZ-ceQ"
+    }
+   ],
+   "album": {
+    "name": "HOPE ON THE STREET VOL.1",
+    "id": "MPREb_AHhXeRbqUOy"
+   },
+   "year": "2024"
+  },
+  {
+   "videoId": "cy6Arnjp-hQ",
+   "title": "Treasure",
+   "length": "2:59",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/m0WX28nJGAiRC8PgPrT7LrC5vRTWlSlQmnelZb2VR0HWDS-e8GPO0MvhEPM0C-KTjTtnvZsOS1R8y1cg=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/m0WX28nJGAiRC8PgPrT7LrC5vRTWlSlQmnelZb2VR0HWDS-e8GPO0MvhEPM0C-KTjTtnvZsOS1R8y1cg=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/m0WX28nJGAiRC8PgPrT7LrC5vRTWlSlQmnelZb2VR0HWDS-e8GPO0MvhEPM0C-KTjTtnvZsOS1R8y1cg=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/m0WX28nJGAiRC8PgPrT7LrC5vRTWlSlQmnelZb2VR0HWDS-e8GPO0MvhEPM0C-KTjTtnvZsOS1R8y1cg=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/m0WX28nJGAiRC8PgPrT7LrC5vRTWlSlQmnelZb2VR0HWDS-e8GPO0MvhEPM0C-KTjTtnvZsOS1R8y1cg=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/m0WX28nJGAiRC8PgPrT7LrC5vRTWlSlQmnelZb2VR0HWDS-e8GPO0MvhEPM0C-KTjTtnvZsOS1R8y1cg=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Bruno Mars",
+     "id": "UCZn4r7heNOPY-C43YIywnVA"
+    }
+   ],
+   "album": {
+    "name": "Unorthodox Jukebox",
+    "id": "MPREb_HvNTLCfP5Jk"
+   },
+   "year": "2012"
+  },
+  {
+   "videoId": "7CTJcHjkq0E",
+   "title": "Billie Jean",
+   "length": "4:54",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/R7pwf7-lcPvK3dxv8jMkUd4SlbVmrM-nZOFEJqnHGLQFBl4lqj1gyeWSFO5X9HZxgUhTh4KM8n0l7j_k=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R7pwf7-lcPvK3dxv8jMkUd4SlbVmrM-nZOFEJqnHGLQFBl4lqj1gyeWSFO5X9HZxgUhTh4KM8n0l7j_k=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R7pwf7-lcPvK3dxv8jMkUd4SlbVmrM-nZOFEJqnHGLQFBl4lqj1gyeWSFO5X9HZxgUhTh4KM8n0l7j_k=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R7pwf7-lcPvK3dxv8jMkUd4SlbVmrM-nZOFEJqnHGLQFBl4lqj1gyeWSFO5X9HZxgUhTh4KM8n0l7j_k=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R7pwf7-lcPvK3dxv8jMkUd4SlbVmrM-nZOFEJqnHGLQFBl4lqj1gyeWSFO5X9HZxgUhTh4KM8n0l7j_k=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R7pwf7-lcPvK3dxv8jMkUd4SlbVmrM-nZOFEJqnHGLQFBl4lqj1gyeWSFO5X9HZxgUhTh4KM8n0l7j_k=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Michael Jackson",
+     "id": "UCoIOOL7QKuBhQHVKL8y7BEQ"
+    }
+   ],
+   "album": {
+    "name": "HIStory: PAST, PRESENT AND FUTURE, BOOK I",
+    "id": "MPREb_L7mH5RJKKdI"
+   },
+   "year": "1995"
+  },
+  {
+   "videoId": "khnokW3Mw24",
+   "title": "Instant Crush (feat. Julian Casablancas)",
+   "length": "5:38",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    },
+    {
+     "name": "Julian Casablancas",
+     "id": "UCWhpbdGLnR8XtXLr0yl2nYA"
+    }
+   ],
+   "album": {
+    "name": "Random Access Memories",
+    "id": "MPREb_K8qWMWVqXGi"
+   },
+   "year": "2013"
+  },
+  {
+   "videoId": "dJqxQzxLbHM",
+   "title": "Happy (From \"Despicable Me 2\")",
+   "length": "3:54",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/Ek9yuai1tNRCy9-jRpJFNHiGt0G7970UV5PhhIWe3I30LLOO7QziPq2Z3dKXmSH2l_uDJl1C1xoeefUi=w60-h60-s-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Ek9yuai1tNRCy9-jRpJFNHiGt0G7970UV5PhhIWe3I30LLOO7QziPq2Z3dKXmSH2l_uDJl1C1xoeefUi=w120-h120-s-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Ek9yuai1tNRCy9-jRpJFNHiGt0G7970UV5PhhIWe3I30LLOO7QziPq2Z3dKXmSH2l_uDJl1C1xoeefUi=w180-h180-s-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Ek9yuai1tNRCy9-jRpJFNHiGt0G7970UV5PhhIWe3I30LLOO7QziPq2Z3dKXmSH2l_uDJl1C1xoeefUi=w226-h226-s-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Ek9yuai1tNRCy9-jRpJFNHiGt0G7970UV5PhhIWe3I30LLOO7QziPq2Z3dKXmSH2l_uDJl1C1xoeefUi=w302-h302-s-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Ek9yuai1tNRCy9-jRpJFNHiGt0G7970UV5PhhIWe3I30LLOO7QziPq2Z3dKXmSH2l_uDJl1C1xoeefUi=w544-h544-s-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Pharrell Williams",
+     "id": "UCJw8VyO6e3v6S0327AsgwcQ"
+    }
+   ],
+   "album": {
+    "name": "G I R L",
+    "id": "MPREb_I3SbfnNDbxW"
+   },
+   "year": "2014"
+  },
+  {
+   "videoId": "vMWAUUA1k5g",
+   "title": "Talk to Me (feat. Tyla, Nile Rodgers)",
+   "length": "3:14",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/c5lz-IXkcHxKtyT9A_viQm8x0Yn4a5CizA6pON6_guw367cM6_4MOxwl4NtJxcmrYHGaN93ESnVvTn6aBA=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/c5lz-IXkcHxKtyT9A_viQm8x0Yn4a5CizA6pON6_guw367cM6_4MOxwl4NtJxcmrYHGaN93ESnVvTn6aBA=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/c5lz-IXkcHxKtyT9A_viQm8x0Yn4a5CizA6pON6_guw367cM6_4MOxwl4NtJxcmrYHGaN93ESnVvTn6aBA=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/c5lz-IXkcHxKtyT9A_viQm8x0Yn4a5CizA6pON6_guw367cM6_4MOxwl4NtJxcmrYHGaN93ESnVvTn6aBA=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/c5lz-IXkcHxKtyT9A_viQm8x0Yn4a5CizA6pON6_guw367cM6_4MOxwl4NtJxcmrYHGaN93ESnVvTn6aBA=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/c5lz-IXkcHxKtyT9A_viQm8x0Yn4a5CizA6pON6_guw367cM6_4MOxwl4NtJxcmrYHGaN93ESnVvTn6aBA=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Damiano David",
+     "id": "UCusolxk6SySDIIJzQ2AmfHg"
+    },
+    {
+     "name": "Tyla",
+     "id": "UCnZBreGKMYsBpE5Vqxevewg"
+    },
+    {
+     "name": "Nile Rodgers",
+     "id": "UCThde8ccpEr6sP8dIHZ-ceQ"
+    }
+   ],
+   "album": {
+    "name": "FUNNY little FEARS (DREAMS)",
+    "id": "MPREb_5vBLDHIZcLt"
+   },
+   "year": "2025"
+  },
+  {
+   "videoId": "jWpZuFM0Qtk",
+   "title": "Safe and Sound",
+   "length": "3:13",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/UUkiq5r5l23b8EmXf7naJz7Qxn-BXfH5ZGLLPIhIFu6QBSpS_vBzUaOE_SP1Ht0YU2XT29sPSfEJCDFavA=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/UUkiq5r5l23b8EmXf7naJz7Qxn-BXfH5ZGLLPIhIFu6QBSpS_vBzUaOE_SP1Ht0YU2XT29sPSfEJCDFavA=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/UUkiq5r5l23b8EmXf7naJz7Qxn-BXfH5ZGLLPIhIFu6QBSpS_vBzUaOE_SP1Ht0YU2XT29sPSfEJCDFavA=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/UUkiq5r5l23b8EmXf7naJz7Qxn-BXfH5ZGLLPIhIFu6QBSpS_vBzUaOE_SP1Ht0YU2XT29sPSfEJCDFavA=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/UUkiq5r5l23b8EmXf7naJz7Qxn-BXfH5ZGLLPIhIFu6QBSpS_vBzUaOE_SP1Ht0YU2XT29sPSfEJCDFavA=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/UUkiq5r5l23b8EmXf7naJz7Qxn-BXfH5ZGLLPIhIFu6QBSpS_vBzUaOE_SP1Ht0YU2XT29sPSfEJCDFavA=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Capital Cities",
+     "id": "UClxuMOFeLBJXk8nt-SolPvw"
+    }
+   ],
+   "album": {
+    "name": "In A Tidal Wave of Mystery",
+    "id": "MPREb_RfIdcxOcvXo"
+   },
+   "year": "2013"
+  },
+  {
+   "videoId": "qPRNIHxLhmc",
+   "title": "I Feel It Coming (feat. Daft Punk)",
+   "length": "4:30",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "The Weeknd",
+     "id": "UClYV6hHlupm_S_ObS1W-DYw"
+    }
+   ],
+   "album": {
+    "name": "Starboy",
+    "id": "MPREb_FWIMEPTHFsY"
+   },
+   "year": "2016"
+  },
+  {
+   "videoId": "fqqcXP1D0Fw",
+   "title": "Feels (feat. Pharrell Williams, Katy Perry & Big Sean)",
+   "length": "3:44",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/VHdOBJElHdTf7hsG9c3jlmG68hB_z-jB0KR-lhCQET0ksmn70QWKo_emVsxsxd1oFMTZVEpdWgSq_cM=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/VHdOBJElHdTf7hsG9c3jlmG68hB_z-jB0KR-lhCQET0ksmn70QWKo_emVsxsxd1oFMTZVEpdWgSq_cM=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/VHdOBJElHdTf7hsG9c3jlmG68hB_z-jB0KR-lhCQET0ksmn70QWKo_emVsxsxd1oFMTZVEpdWgSq_cM=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/VHdOBJElHdTf7hsG9c3jlmG68hB_z-jB0KR-lhCQET0ksmn70QWKo_emVsxsxd1oFMTZVEpdWgSq_cM=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/VHdOBJElHdTf7hsG9c3jlmG68hB_z-jB0KR-lhCQET0ksmn70QWKo_emVsxsxd1oFMTZVEpdWgSq_cM=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/VHdOBJElHdTf7hsG9c3jlmG68hB_z-jB0KR-lhCQET0ksmn70QWKo_emVsxsxd1oFMTZVEpdWgSq_cM=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Calvin Harris",
+     "id": "UCZ0Aezmtk-S2l8A9Ln-2lKw"
+    }
+   ],
+   "album": {
+    "name": "Funk Wav Bounces Vol.1",
+    "id": "MPREb_7JA7fLM7ZzF"
+   },
+   "year": "2017"
+  },
+  {
+   "videoId": "Ls9uHzWeckI",
+   "title": "Just A Dance",
+   "length": "2:41",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/mx0gjcJFkaxWNQXKYpCqvYTVXSr3TMtD4wUvCnuM2lAVv-CWVF3o--F9O8tW6H3OQM38Ttkp9dnvdWI=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/mx0gjcJFkaxWNQXKYpCqvYTVXSr3TMtD4wUvCnuM2lAVv-CWVF3o--F9O8tW6H3OQM38Ttkp9dnvdWI=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/mx0gjcJFkaxWNQXKYpCqvYTVXSr3TMtD4wUvCnuM2lAVv-CWVF3o--F9O8tW6H3OQM38Ttkp9dnvdWI=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/mx0gjcJFkaxWNQXKYpCqvYTVXSr3TMtD4wUvCnuM2lAVv-CWVF3o--F9O8tW6H3OQM38Ttkp9dnvdWI=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/mx0gjcJFkaxWNQXKYpCqvYTVXSr3TMtD4wUvCnuM2lAVv-CWVF3o--F9O8tW6H3OQM38Ttkp9dnvdWI=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/mx0gjcJFkaxWNQXKYpCqvYTVXSr3TMtD4wUvCnuM2lAVv-CWVF3o--F9O8tW6H3OQM38Ttkp9dnvdWI=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Alfie Templeman",
+     "id": "UCKvYwJPnCzNb1ZxXBtuphUg"
+    },
+    {
+     "name": "Nile Rodgers",
+     "id": "UCThde8ccpEr6sP8dIHZ-ceQ"
+    }
+   ],
+   "album": {
+    "name": "Radiosoul",
+    "id": "MPREb_FC0BL6RU1Vn"
+   },
+   "year": "2024"
+  },
+  {
+   "videoId": "vBtvhPM2GHc",
+   "title": "Crazy",
+   "length": "2:58",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/EPk9WJeL0oHUkR-E9epQRs9erHzVqQHowqnbZEsYg77fOG91B1lxLqKp0fNuShsdGh-2p1wgdpTAKb9Ttg=w60-h60-s-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/EPk9WJeL0oHUkR-E9epQRs9erHzVqQHowqnbZEsYg77fOG91B1lxLqKp0fNuShsdGh-2p1wgdpTAKb9Ttg=w120-h120-s-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/EPk9WJeL0oHUkR-E9epQRs9erHzVqQHowqnbZEsYg77fOG91B1lxLqKp0fNuShsdGh-2p1wgdpTAKb9Ttg=w180-h180-s-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/EPk9WJeL0oHUkR-E9epQRs9erHzVqQHowqnbZEsYg77fOG91B1lxLqKp0fNuShsdGh-2p1wgdpTAKb9Ttg=w226-h226-s-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/EPk9WJeL0oHUkR-E9epQRs9erHzVqQHowqnbZEsYg77fOG91B1lxLqKp0fNuShsdGh-2p1wgdpTAKb9Ttg=w302-h302-s-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/EPk9WJeL0oHUkR-E9epQRs9erHzVqQHowqnbZEsYg77fOG91B1lxLqKp0fNuShsdGh-2p1wgdpTAKb9Ttg=w544-h544-s-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Gnarls Barkley",
+     "id": "UCh3GPQJZRlA3p-j5TaPtmfQ"
+    },
+    {
+     "name": "CeeLo Green",
+     "id": "UCQlJSs4QNKLLt1sHgRXkVYg"
+    },
+    {
+     "name": "Danger Mouse",
+     "id": "UC5174GK88E8jwZC_TDIKJGQ"
+    }
+   ],
+   "album": {
+    "name": "St. Elsewhere",
+    "id": "MPREb_XF4QSpP9p1l"
+   },
+   "year": "2006"
+  },
+  {
+   "videoId": "wU26xVT_vBU",
+   "title": "One More Time (Radio Edit)",
+   "length": "5:21",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/_pY9BvNbeIpT2PUw_hQszOM3PZzmBRdi5uGNL8U6ZVE8AvApw7WqgMotzoGg7kk_ip8yj9VBkAJlgwv7_A=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/_pY9BvNbeIpT2PUw_hQszOM3PZzmBRdi5uGNL8U6ZVE8AvApw7WqgMotzoGg7kk_ip8yj9VBkAJlgwv7_A=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/_pY9BvNbeIpT2PUw_hQszOM3PZzmBRdi5uGNL8U6ZVE8AvApw7WqgMotzoGg7kk_ip8yj9VBkAJlgwv7_A=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/_pY9BvNbeIpT2PUw_hQszOM3PZzmBRdi5uGNL8U6ZVE8AvApw7WqgMotzoGg7kk_ip8yj9VBkAJlgwv7_A=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/_pY9BvNbeIpT2PUw_hQszOM3PZzmBRdi5uGNL8U6ZVE8AvApw7WqgMotzoGg7kk_ip8yj9VBkAJlgwv7_A=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/_pY9BvNbeIpT2PUw_hQszOM3PZzmBRdi5uGNL8U6ZVE8AvApw7WqgMotzoGg7kk_ip8yj9VBkAJlgwv7_A=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": {
+    "name": "One More Time",
+    "id": "MPREb_uWQeJO6Z53u"
+   },
+   "year": "2000"
+  },
+  {
+   "videoId": "UJHEK0GIdYE",
+   "title": "Blurred Lines (feat. T.I. & Pharrell)",
+   "length": "4:24",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/L0-mNOG6kzyD8f8pe_98VWVGOBX6WEFH4LcvnGIrFCgGzntJ7sTgDM-pekFu494K3bI13cqwNbyBPhqF=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/L0-mNOG6kzyD8f8pe_98VWVGOBX6WEFH4LcvnGIrFCgGzntJ7sTgDM-pekFu494K3bI13cqwNbyBPhqF=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/L0-mNOG6kzyD8f8pe_98VWVGOBX6WEFH4LcvnGIrFCgGzntJ7sTgDM-pekFu494K3bI13cqwNbyBPhqF=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/L0-mNOG6kzyD8f8pe_98VWVGOBX6WEFH4LcvnGIrFCgGzntJ7sTgDM-pekFu494K3bI13cqwNbyBPhqF=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/L0-mNOG6kzyD8f8pe_98VWVGOBX6WEFH4LcvnGIrFCgGzntJ7sTgDM-pekFu494K3bI13cqwNbyBPhqF=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/L0-mNOG6kzyD8f8pe_98VWVGOBX6WEFH4LcvnGIrFCgGzntJ7sTgDM-pekFu494K3bI13cqwNbyBPhqF=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Robin Thicke",
+     "id": "UCyYnxJIyBDCIkDIpE7lsUkw"
+    }
+   ],
+   "album": {
+    "name": "Blurred Lines",
+    "id": "MPREb_VQ3Hfj9CRg5"
+   },
+   "year": "2013"
+  },
+  {
+   "videoId": "7JpV3QkWuBw",
+   "title": "Passion (feat. Nile Rodgers)",
+   "length": "3:42",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/8ZpeaW1kq8ZaVBXcoM_zG7apDgrZ2oj6oSal1oPWRv0VobYCenPvqHwAbhnGoED3Sd8d9ePr_yLwaqJ1=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/8ZpeaW1kq8ZaVBXcoM_zG7apDgrZ2oj6oSal1oPWRv0VobYCenPvqHwAbhnGoED3Sd8d9ePr_yLwaqJ1=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/8ZpeaW1kq8ZaVBXcoM_zG7apDgrZ2oj6oSal1oPWRv0VobYCenPvqHwAbhnGoED3Sd8d9ePr_yLwaqJ1=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/8ZpeaW1kq8ZaVBXcoM_zG7apDgrZ2oj6oSal1oPWRv0VobYCenPvqHwAbhnGoED3Sd8d9ePr_yLwaqJ1=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/8ZpeaW1kq8ZaVBXcoM_zG7apDgrZ2oj6oSal1oPWRv0VobYCenPvqHwAbhnGoED3Sd8d9ePr_yLwaqJ1=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/8ZpeaW1kq8ZaVBXcoM_zG7apDgrZ2oj6oSal1oPWRv0VobYCenPvqHwAbhnGoED3Sd8d9ePr_yLwaqJ1=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Roosevelt",
+     "id": "UC7jTDrwBF4FNMX_zzaIC5mQ"
+    },
+    {
+     "name": "Nile Rodgers",
+     "id": "UCThde8ccpEr6sP8dIHZ-ceQ"
+    }
+   ],
+   "album": {
+    "name": "Passion (feat. Nile Rodgers)",
+    "id": "MPREb_bP9ug9vEnoE"
+   },
+   "year": "2022"
+  },
+  {
+   "videoId": "XsMpXczOIPs",
+   "title": "Adventure of a Lifetime",
+   "length": "4:24",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/xe9bE6n-eibnXPIlc-UEemlqsMMcz-S100IjrclFeaKrw1ATP9rbPrNy9jLA1zA02Zc-3YAFROuNEFKA=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/xe9bE6n-eibnXPIlc-UEemlqsMMcz-S100IjrclFeaKrw1ATP9rbPrNy9jLA1zA02Zc-3YAFROuNEFKA=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/xe9bE6n-eibnXPIlc-UEemlqsMMcz-S100IjrclFeaKrw1ATP9rbPrNy9jLA1zA02Zc-3YAFROuNEFKA=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/xe9bE6n-eibnXPIlc-UEemlqsMMcz-S100IjrclFeaKrw1ATP9rbPrNy9jLA1zA02Zc-3YAFROuNEFKA=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/xe9bE6n-eibnXPIlc-UEemlqsMMcz-S100IjrclFeaKrw1ATP9rbPrNy9jLA1zA02Zc-3YAFROuNEFKA=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/xe9bE6n-eibnXPIlc-UEemlqsMMcz-S100IjrclFeaKrw1ATP9rbPrNy9jLA1zA02Zc-3YAFROuNEFKA=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Coldplay",
+     "id": "UCIaFw5VBEK8qaW6nRpx_qnw"
+    }
+   ],
+   "album": {
+    "name": "A Head Full of Dreams",
+    "id": "MPREb_PvMNqFUp1oW"
+   },
+   "year": "2015"
+  },
+  {
+   "videoId": "4j064xpolDw",
+   "title": "Something About Us (Love Theme from Interstella 5555)",
+   "length": "2:15",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/KWKJfEfasVPd53ha--VXKCrjQPtCYMbjtTAg25IhmODgYDud5bqPgZXwzaLY4Mhq1MTEjjvyFRbLSuw=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KWKJfEfasVPd53ha--VXKCrjQPtCYMbjtTAg25IhmODgYDud5bqPgZXwzaLY4Mhq1MTEjjvyFRbLSuw=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KWKJfEfasVPd53ha--VXKCrjQPtCYMbjtTAg25IhmODgYDud5bqPgZXwzaLY4Mhq1MTEjjvyFRbLSuw=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KWKJfEfasVPd53ha--VXKCrjQPtCYMbjtTAg25IhmODgYDud5bqPgZXwzaLY4Mhq1MTEjjvyFRbLSuw=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KWKJfEfasVPd53ha--VXKCrjQPtCYMbjtTAg25IhmODgYDud5bqPgZXwzaLY4Mhq1MTEjjvyFRbLSuw=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KWKJfEfasVPd53ha--VXKCrjQPtCYMbjtTAg25IhmODgYDud5bqPgZXwzaLY4Mhq1MTEjjvyFRbLSuw=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": {
+    "name": "Something About Us (Love Theme from Interstella)",
+    "id": "MPREb_DYSzDJvUSDu"
+   },
+   "year": "2003"
+  },
+  {
+   "videoId": "qFfzULU86LI",
+   "title": "Freedom",
+   "length": "2:43",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/oJ3yCy1z09njgWrXzjTd4W41UCD1gPRLo5UBRzQwkJzDd0C6PfQrjc6b158xQTV3vgOXkonm2u91n1Bu=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/oJ3yCy1z09njgWrXzjTd4W41UCD1gPRLo5UBRzQwkJzDd0C6PfQrjc6b158xQTV3vgOXkonm2u91n1Bu=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/oJ3yCy1z09njgWrXzjTd4W41UCD1gPRLo5UBRzQwkJzDd0C6PfQrjc6b158xQTV3vgOXkonm2u91n1Bu=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/oJ3yCy1z09njgWrXzjTd4W41UCD1gPRLo5UBRzQwkJzDd0C6PfQrjc6b158xQTV3vgOXkonm2u91n1Bu=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/oJ3yCy1z09njgWrXzjTd4W41UCD1gPRLo5UBRzQwkJzDd0C6PfQrjc6b158xQTV3vgOXkonm2u91n1Bu=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/oJ3yCy1z09njgWrXzjTd4W41UCD1gPRLo5UBRzQwkJzDd0C6PfQrjc6b158xQTV3vgOXkonm2u91n1Bu=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Pharrell Williams",
+     "id": "UCJw8VyO6e3v6S0327AsgwcQ"
+    }
+   ],
+   "album": {
+    "name": "Freedom",
+    "id": "MPREb_K8bffwb5L3D"
+   },
+   "year": "2015"
+  },
+  {
+   "videoId": "pdQ5sBHnY8s",
+   "title": "Muscle Memory",
+   "length": "3:32",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/TKJL8bfg37HI4ML-vJC_wzjKNP3s04cgjMgWtGnBQk_uXv09A5GvGr3w_8f1OBQbWCRS-ezHfkxnDKHd=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/TKJL8bfg37HI4ML-vJC_wzjKNP3s04cgjMgWtGnBQk_uXv09A5GvGr3w_8f1OBQbWCRS-ezHfkxnDKHd=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/TKJL8bfg37HI4ML-vJC_wzjKNP3s04cgjMgWtGnBQk_uXv09A5GvGr3w_8f1OBQbWCRS-ezHfkxnDKHd=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/TKJL8bfg37HI4ML-vJC_wzjKNP3s04cgjMgWtGnBQk_uXv09A5GvGr3w_8f1OBQbWCRS-ezHfkxnDKHd=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/TKJL8bfg37HI4ML-vJC_wzjKNP3s04cgjMgWtGnBQk_uXv09A5GvGr3w_8f1OBQbWCRS-ezHfkxnDKHd=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/TKJL8bfg37HI4ML-vJC_wzjKNP3s04cgjMgWtGnBQk_uXv09A5GvGr3w_8f1OBQbWCRS-ezHfkxnDKHd=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "kamille",
+     "id": "UCaicU0VsEUwGCF8084QOO1A"
+    },
+    {
+     "name": "Nile Rodgers",
+     "id": "UCThde8ccpEr6sP8dIHZ-ceQ"
+    }
+   ],
+   "album": {
+    "name": "Muscle Memory",
+    "id": "MPREb_DqenTJrHXtF"
+   },
+   "year": "2023"
+  },
+  {
+   "videoId": "O_d3DXVb430",
+   "title": "Memories (feat. Kid Cudi)",
+   "length": "3:31",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/8qU-GuY_ClBBPYt_pYnPFVHNvb_ti3DEYII1FV-nz1BQTd0ACpw_zRhJ5y-jP7EyKvkA_jJfLXp17tlw=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/8qU-GuY_ClBBPYt_pYnPFVHNvb_ti3DEYII1FV-nz1BQTd0ACpw_zRhJ5y-jP7EyKvkA_jJfLXp17tlw=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/8qU-GuY_ClBBPYt_pYnPFVHNvb_ti3DEYII1FV-nz1BQTd0ACpw_zRhJ5y-jP7EyKvkA_jJfLXp17tlw=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/8qU-GuY_ClBBPYt_pYnPFVHNvb_ti3DEYII1FV-nz1BQTd0ACpw_zRhJ5y-jP7EyKvkA_jJfLXp17tlw=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/8qU-GuY_ClBBPYt_pYnPFVHNvb_ti3DEYII1FV-nz1BQTd0ACpw_zRhJ5y-jP7EyKvkA_jJfLXp17tlw=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/8qU-GuY_ClBBPYt_pYnPFVHNvb_ti3DEYII1FV-nz1BQTd0ACpw_zRhJ5y-jP7EyKvkA_jJfLXp17tlw=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "David Guetta",
+     "id": "UCh-4c1ZoBPNP1C8c-7iVvUQ"
+    }
+   ],
+   "album": {
+    "name": "Memories",
+    "id": "MPREb_iUDhqG4sAvA"
+   },
+   "year": "2010"
+  },
+  {
+   "videoId": "cV9mMLDKIbI",
+   "title": "I Need A Dollar",
+   "length": "4:04",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/gDS_pSO6fR7gSOKY_T3TR-k8FDrCMFYTxlPXgMCw097XMOkjXm04gNKd77_R07KE0R3fB84yIkga03k=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/gDS_pSO6fR7gSOKY_T3TR-k8FDrCMFYTxlPXgMCw097XMOkjXm04gNKd77_R07KE0R3fB84yIkga03k=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/gDS_pSO6fR7gSOKY_T3TR-k8FDrCMFYTxlPXgMCw097XMOkjXm04gNKd77_R07KE0R3fB84yIkga03k=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/gDS_pSO6fR7gSOKY_T3TR-k8FDrCMFYTxlPXgMCw097XMOkjXm04gNKd77_R07KE0R3fB84yIkga03k=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/gDS_pSO6fR7gSOKY_T3TR-k8FDrCMFYTxlPXgMCw097XMOkjXm04gNKd77_R07KE0R3fB84yIkga03k=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/gDS_pSO6fR7gSOKY_T3TR-k8FDrCMFYTxlPXgMCw097XMOkjXm04gNKd77_R07KE0R3fB84yIkga03k=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Aloe Blacc",
+     "id": "UCqV-zKBsxwGl-1uUSIoEcUw"
+    }
+   ],
+   "album": {
+    "name": "Good Things",
+    "id": "MPREb_R3dFWfOpjnc"
+   },
+   "year": "2010"
+  },
+  {
+   "videoId": "Bavc0C_5354",
+   "title": "Meet Me Halfway",
+   "length": "4:45",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/SPVfJZ3aTXrhsM87BAV5ULDUXUF32Ia3n5qTPazx3R2Ir7ox0kaWf1vYSxR9Oiq3_7wv_vUA4ZBgnA=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/SPVfJZ3aTXrhsM87BAV5ULDUXUF32Ia3n5qTPazx3R2Ir7ox0kaWf1vYSxR9Oiq3_7wv_vUA4ZBgnA=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/SPVfJZ3aTXrhsM87BAV5ULDUXUF32Ia3n5qTPazx3R2Ir7ox0kaWf1vYSxR9Oiq3_7wv_vUA4ZBgnA=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/SPVfJZ3aTXrhsM87BAV5ULDUXUF32Ia3n5qTPazx3R2Ir7ox0kaWf1vYSxR9Oiq3_7wv_vUA4ZBgnA=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/SPVfJZ3aTXrhsM87BAV5ULDUXUF32Ia3n5qTPazx3R2Ir7ox0kaWf1vYSxR9Oiq3_7wv_vUA4ZBgnA=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/SPVfJZ3aTXrhsM87BAV5ULDUXUF32Ia3n5qTPazx3R2Ir7ox0kaWf1vYSxR9Oiq3_7wv_vUA4ZBgnA=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "The Black Eyed Peas",
+     "id": "UC7JGA3rY8kb0-Epuqenjkzw"
+    }
+   ],
+   "album": {
+    "name": "THE E.N.D. (THE ENERGY NEVER DIES) (International Version)",
+    "id": "MPREb_A7QESxEm567"
+   },
+   "year": "2009"
+  },
+  {
+   "videoId": "_GWKkqNoyEA",
+   "title": "Counting Stars",
+   "length": "4:18",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/m2pZLjozMvQBj21LgvAIslVPP-T2xQlxbxCTJ98vpPN8HZ0fgR-wisJQ2IzrKS2yLTAYBjs0TpOYnIY=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/m2pZLjozMvQBj21LgvAIslVPP-T2xQlxbxCTJ98vpPN8HZ0fgR-wisJQ2IzrKS2yLTAYBjs0TpOYnIY=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/m2pZLjozMvQBj21LgvAIslVPP-T2xQlxbxCTJ98vpPN8HZ0fgR-wisJQ2IzrKS2yLTAYBjs0TpOYnIY=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/m2pZLjozMvQBj21LgvAIslVPP-T2xQlxbxCTJ98vpPN8HZ0fgR-wisJQ2IzrKS2yLTAYBjs0TpOYnIY=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/m2pZLjozMvQBj21LgvAIslVPP-T2xQlxbxCTJ98vpPN8HZ0fgR-wisJQ2IzrKS2yLTAYBjs0TpOYnIY=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/m2pZLjozMvQBj21LgvAIslVPP-T2xQlxbxCTJ98vpPN8HZ0fgR-wisJQ2IzrKS2yLTAYBjs0TpOYnIY=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "OneRepublic",
+     "id": "UCrrbm1toLPud8fFIisPuxpg"
+    }
+   ],
+   "album": {
+    "name": "Native",
+    "id": "MPREb_j2MurDlPfJu"
+   },
+   "year": "2013"
+  },
+  {
+   "videoId": "9dzub7uXWl4",
+   "title": "Lykke Li - I Follow Rivers (Lyrics)",
+   "length": "3:57",
+   "thumbnail": [
+    {
+     "url": "https://i.ytimg.com/vi/9dzub7uXWl4/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg&rs=AMzJL3k8zPyr0TB6m5EU_DGjOCTJaF-PrQ",
+     "width": 400,
+     "height": 225
+    },
+    {
+     "url": "https://i.ytimg.com/vi/9dzub7uXWl4/hq720.jpg?sqp=-oaymwEKCKAGEMIDIABIWg&rs=AMzJL3maSNfQRwtSqIzFIH2I3xbLSDrM9A",
+     "width": 800,
+     "height": 450
+    },
+    {
+     "url": "https://i.ytimg.com/vi/9dzub7uXWl4/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg&rs=AMzJL3kudhV2bUACdN-Qx1ji1-tZ3JCmMA",
+     "width": 853,
+     "height": 479
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_UGC",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Lyrics",
+     "id": "UCpzvMPB04BkYpk7vYtJCGGw"
+    }
+   ],
+   "views": "339K"
+  },
+  {
+   "videoId": "OBM0DO8Xt1c",
+   "title": "September",
+   "length": "3:37",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/GkV0O58LmxhfcEfgWU35XbHlMiB33jRz9q7WXKxszDJxgg_MuFSNBr-1x0jNWcOU6rzU48rS96O2JFA=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/GkV0O58LmxhfcEfgWU35XbHlMiB33jRz9q7WXKxszDJxgg_MuFSNBr-1x0jNWcOU6rzU48rS96O2JFA=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/GkV0O58LmxhfcEfgWU35XbHlMiB33jRz9q7WXKxszDJxgg_MuFSNBr-1x0jNWcOU6rzU48rS96O2JFA=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/GkV0O58LmxhfcEfgWU35XbHlMiB33jRz9q7WXKxszDJxgg_MuFSNBr-1x0jNWcOU6rzU48rS96O2JFA=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/GkV0O58LmxhfcEfgWU35XbHlMiB33jRz9q7WXKxszDJxgg_MuFSNBr-1x0jNWcOU6rzU48rS96O2JFA=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/GkV0O58LmxhfcEfgWU35XbHlMiB33jRz9q7WXKxszDJxgg_MuFSNBr-1x0jNWcOU6rzU48rS96O2JFA=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Earth, Wind & Fire",
+     "id": "UCdyqvgHHq9NEEfV20lO61jQ"
+    }
+   ],
+   "album": {
+    "name": "September (sped up + slowed)",
+    "id": "MPREb_RCaUbOIBaZ0"
+   },
+   "year": "1978"
+  },
+  {
+   "videoId": "3_g2un5M350",
+   "title": "Starboy (feat. Daft Punk)",
+   "length": "3:51",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/dcxXIIlest09vnvKznWM9VWQXu1EL7lKxBzXGzwgmVjmMNBm1dEWT_0qn1xrEZYyKF_qRE1TLq8P_JY_mQ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "The Weeknd",
+     "id": "UClYV6hHlupm_S_ObS1W-DYw"
+    }
+   ],
+   "album": {
+    "name": "Starboy",
+    "id": "MPREb_FWIMEPTHFsY"
+   },
+   "year": "2016"
+  },
+  {
+   "videoId": "KYwA5k00p2I",
+   "title": "Just the Two of Us (Edit) (feat. Bill Withers)",
+   "length": "3:58",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/GpQY0c7TXadCwNxrKpbUOZhoCTGnE2skOmByO5F6jIMIeWY5kOD76etMZAykNNkInAJFXW43AP-WV_Q=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/GpQY0c7TXadCwNxrKpbUOZhoCTGnE2skOmByO5F6jIMIeWY5kOD76etMZAykNNkInAJFXW43AP-WV_Q=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/GpQY0c7TXadCwNxrKpbUOZhoCTGnE2skOmByO5F6jIMIeWY5kOD76etMZAykNNkInAJFXW43AP-WV_Q=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/GpQY0c7TXadCwNxrKpbUOZhoCTGnE2skOmByO5F6jIMIeWY5kOD76etMZAykNNkInAJFXW43AP-WV_Q=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/GpQY0c7TXadCwNxrKpbUOZhoCTGnE2skOmByO5F6jIMIeWY5kOD76etMZAykNNkInAJFXW43AP-WV_Q=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/GpQY0c7TXadCwNxrKpbUOZhoCTGnE2skOmByO5F6jIMIeWY5kOD76etMZAykNNkInAJFXW43AP-WV_Q=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Grover Washington, Jr.",
+     "id": "UCsN1HTruhFfXcSMGMsBmX_w"
+    }
+   ],
+   "album": {
+    "name": "Lean on Me: The Best of Bill Withers",
+    "id": "MPREb_XSkhzvPNUge"
+   },
+   "year": "1994"
+  },
+  {
+   "videoId": "KPM_BYl-EaQ",
+   "title": "Watermelon Sugar",
+   "length": "2:54",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/S81rF7hb7asyWLPyVpaUmHUlUrdY-2yWh4R-OYUiaT-rLNf3z-ipKX_A1z6YDKeqaXph7iP38h73QGE=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/S81rF7hb7asyWLPyVpaUmHUlUrdY-2yWh4R-OYUiaT-rLNf3z-ipKX_A1z6YDKeqaXph7iP38h73QGE=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/S81rF7hb7asyWLPyVpaUmHUlUrdY-2yWh4R-OYUiaT-rLNf3z-ipKX_A1z6YDKeqaXph7iP38h73QGE=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/S81rF7hb7asyWLPyVpaUmHUlUrdY-2yWh4R-OYUiaT-rLNf3z-ipKX_A1z6YDKeqaXph7iP38h73QGE=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/S81rF7hb7asyWLPyVpaUmHUlUrdY-2yWh4R-OYUiaT-rLNf3z-ipKX_A1z6YDKeqaXph7iP38h73QGE=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/S81rF7hb7asyWLPyVpaUmHUlUrdY-2yWh4R-OYUiaT-rLNf3z-ipKX_A1z6YDKeqaXph7iP38h73QGE=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Harry Styles",
+     "id": "UCVacQ2t5GUZ2t_J3Ia9BynA"
+    }
+   ],
+   "album": {
+    "name": "Fine Line",
+    "id": "MPREb_4NGjVeinh8q"
+   },
+   "year": "2019"
+  },
+  {
+   "videoId": "MR3uP7IYz44",
+   "title": "Lady (Hear Me Tonight)",
+   "length": "5:08",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/Bf_DlTF_hPXw6myh1XNAQqlhdt0Ken_D3wd4S3_m8A_lbleEQAE4u0_9axORDD9SxYJuibTGgwzquVV4LA=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Bf_DlTF_hPXw6myh1XNAQqlhdt0Ken_D3wd4S3_m8A_lbleEQAE4u0_9axORDD9SxYJuibTGgwzquVV4LA=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Bf_DlTF_hPXw6myh1XNAQqlhdt0Ken_D3wd4S3_m8A_lbleEQAE4u0_9axORDD9SxYJuibTGgwzquVV4LA=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Bf_DlTF_hPXw6myh1XNAQqlhdt0Ken_D3wd4S3_m8A_lbleEQAE4u0_9axORDD9SxYJuibTGgwzquVV4LA=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Bf_DlTF_hPXw6myh1XNAQqlhdt0Ken_D3wd4S3_m8A_lbleEQAE4u0_9axORDD9SxYJuibTGgwzquVV4LA=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Bf_DlTF_hPXw6myh1XNAQqlhdt0Ken_D3wd4S3_m8A_lbleEQAE4u0_9axORDD9SxYJuibTGgwzquVV4LA=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Modjo",
+     "id": "UCAbayp4OwUPyogIg330TM-Q"
+    }
+   ],
+   "album": {
+    "name": "Modjo",
+    "id": "MPREb_9fDdKXDcKep"
+   },
+   "year": "2001"
+  },
+  {
+   "videoId": "xOazTYPrt64",
+   "title": "Somebody That I Used To Know (feat. Kimbra)",
+   "length": "4:05",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/Mec0zeof6z-TkwToxxv3Fs6GjyUmifRDUJeEq200VC3_Tla3Sx4S6UfLTK8uNuPB8Q-RaPm4DU5B-EeQ=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Mec0zeof6z-TkwToxxv3Fs6GjyUmifRDUJeEq200VC3_Tla3Sx4S6UfLTK8uNuPB8Q-RaPm4DU5B-EeQ=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Mec0zeof6z-TkwToxxv3Fs6GjyUmifRDUJeEq200VC3_Tla3Sx4S6UfLTK8uNuPB8Q-RaPm4DU5B-EeQ=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Mec0zeof6z-TkwToxxv3Fs6GjyUmifRDUJeEq200VC3_Tla3Sx4S6UfLTK8uNuPB8Q-RaPm4DU5B-EeQ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Mec0zeof6z-TkwToxxv3Fs6GjyUmifRDUJeEq200VC3_Tla3Sx4S6UfLTK8uNuPB8Q-RaPm4DU5B-EeQ=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Mec0zeof6z-TkwToxxv3Fs6GjyUmifRDUJeEq200VC3_Tla3Sx4S6UfLTK8uNuPB8Q-RaPm4DU5B-EeQ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Gotye",
+     "id": "UCcrR-Or3AH2RKJqOntiD_Tw"
+    }
+   ],
+   "album": {
+    "name": "Making Mirrors",
+    "id": "MPREb_vDiDlMWN1v0"
+   },
+   "year": "2011"
+  },
+  {
+   "videoId": "zKSsP2084nU",
+   "title": "Give Life Back to Music",
+   "length": "4:36",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": {
+    "name": "Random Access Memories",
+    "id": "MPREb_K8qWMWVqXGi"
+   },
+   "year": "2013"
+  },
+  {
+   "videoId": "NxxjLD2pmlk",
+   "title": "Feel Good Inc.",
+   "length": "3:43",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/_3LJKVh0dy-71CwQzWKt0q7JHI7M2rxIMGGAdT0wEhmGEEELRX98ACJFdKK5Fyl226nuNfQ0OAMc-JtP=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/_3LJKVh0dy-71CwQzWKt0q7JHI7M2rxIMGGAdT0wEhmGEEELRX98ACJFdKK5Fyl226nuNfQ0OAMc-JtP=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/_3LJKVh0dy-71CwQzWKt0q7JHI7M2rxIMGGAdT0wEhmGEEELRX98ACJFdKK5Fyl226nuNfQ0OAMc-JtP=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/_3LJKVh0dy-71CwQzWKt0q7JHI7M2rxIMGGAdT0wEhmGEEELRX98ACJFdKK5Fyl226nuNfQ0OAMc-JtP=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/_3LJKVh0dy-71CwQzWKt0q7JHI7M2rxIMGGAdT0wEhmGEEELRX98ACJFdKK5Fyl226nuNfQ0OAMc-JtP=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/_3LJKVh0dy-71CwQzWKt0q7JHI7M2rxIMGGAdT0wEhmGEEELRX98ACJFdKK5Fyl226nuNfQ0OAMc-JtP=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Gorillaz",
+     "id": "UCNIV5B_aJnLrKDSnW_MOmcQ"
+    },
+    {
+     "name": "De La Soul",
+     "id": "UCnLCApgMiI8wopT2tWVuMLw"
+    }
+   ],
+   "album": {
+    "name": "Demon Days",
+    "id": "MPREb_2az20wG4HxN"
+   },
+   "year": "2005"
+  },
+  {
+   "videoId": "V2SVRJ6dcE4",
+   "title": "Bones",
+   "length": "2:46",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/KuONfkMBij_zPmwXEMDG4y3TdMqZkWAABH6in8kzR2aAlKfDbto2hjvMSRakMeR2nSyPblGFJQ0WaxaR=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KuONfkMBij_zPmwXEMDG4y3TdMqZkWAABH6in8kzR2aAlKfDbto2hjvMSRakMeR2nSyPblGFJQ0WaxaR=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KuONfkMBij_zPmwXEMDG4y3TdMqZkWAABH6in8kzR2aAlKfDbto2hjvMSRakMeR2nSyPblGFJQ0WaxaR=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KuONfkMBij_zPmwXEMDG4y3TdMqZkWAABH6in8kzR2aAlKfDbto2hjvMSRakMeR2nSyPblGFJQ0WaxaR=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KuONfkMBij_zPmwXEMDG4y3TdMqZkWAABH6in8kzR2aAlKfDbto2hjvMSRakMeR2nSyPblGFJQ0WaxaR=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/KuONfkMBij_zPmwXEMDG4y3TdMqZkWAABH6in8kzR2aAlKfDbto2hjvMSRakMeR2nSyPblGFJQ0WaxaR=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Imagine Dragons",
+     "id": "UC0aXrjVxG5pZr99v77wZdPQ"
+    }
+   ],
+   "album": {
+    "name": "Bones",
+    "id": "MPREb_qDEFM12P26q"
+   },
+   "year": "2022"
+  },
+  {
+   "videoId": "5T4VRcd8UJQ",
+   "title": "Relax, Take It Easy",
+   "length": "4:30",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/Um3Zb0lOhalqSuRlVTTk_cRszq6WSudIzmAL2esVLBoUhSZiz7uYS7infs5oo2tcX70SV2hqodwEPQ65=w60-h60-s-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Um3Zb0lOhalqSuRlVTTk_cRszq6WSudIzmAL2esVLBoUhSZiz7uYS7infs5oo2tcX70SV2hqodwEPQ65=w120-h120-s-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Um3Zb0lOhalqSuRlVTTk_cRszq6WSudIzmAL2esVLBoUhSZiz7uYS7infs5oo2tcX70SV2hqodwEPQ65=w180-h180-s-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Um3Zb0lOhalqSuRlVTTk_cRszq6WSudIzmAL2esVLBoUhSZiz7uYS7infs5oo2tcX70SV2hqodwEPQ65=w226-h226-s-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Um3Zb0lOhalqSuRlVTTk_cRszq6WSudIzmAL2esVLBoUhSZiz7uYS7infs5oo2tcX70SV2hqodwEPQ65=w302-h302-s-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Um3Zb0lOhalqSuRlVTTk_cRszq6WSudIzmAL2esVLBoUhSZiz7uYS7infs5oo2tcX70SV2hqodwEPQ65=w544-h544-s-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "MIKA",
+     "id": "UCuvYmaUR4lpW7kWmgCUpfqA"
+    }
+   ],
+   "album": {
+    "name": "Life In Cartoon Motion",
+    "id": "MPREb_E5ZYq0DrumY"
+   },
+   "year": "2006"
+  },
+  {
+   "videoId": "OPKTk5vUtDY",
+   "title": "Feel It Still",
+   "length": "2:44",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/gLT6AuLKrhAlVtEZKQCNwPiVb0-HmdxXDZYQiRrTDPXxvC1lGjTDEh7TN_U8bsO3Mfzh-3OxvqkOViU=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/gLT6AuLKrhAlVtEZKQCNwPiVb0-HmdxXDZYQiRrTDPXxvC1lGjTDEh7TN_U8bsO3Mfzh-3OxvqkOViU=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/gLT6AuLKrhAlVtEZKQCNwPiVb0-HmdxXDZYQiRrTDPXxvC1lGjTDEh7TN_U8bsO3Mfzh-3OxvqkOViU=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/gLT6AuLKrhAlVtEZKQCNwPiVb0-HmdxXDZYQiRrTDPXxvC1lGjTDEh7TN_U8bsO3Mfzh-3OxvqkOViU=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/gLT6AuLKrhAlVtEZKQCNwPiVb0-HmdxXDZYQiRrTDPXxvC1lGjTDEh7TN_U8bsO3Mfzh-3OxvqkOViU=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/gLT6AuLKrhAlVtEZKQCNwPiVb0-HmdxXDZYQiRrTDPXxvC1lGjTDEh7TN_U8bsO3Mfzh-3OxvqkOViU=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Portugal. The Man",
+     "id": "UCBSGgAD3UXDPzm2kVVAOEag"
+    }
+   ],
+   "album": {
+    "name": "Woodstock",
+    "id": "MPREb_fajW1y6u6QP"
+   },
+   "year": "2017"
+  },
+  {
+   "videoId": "4ujBQOzs6Lw",
+   "title": "Rolling in the Deep",
+   "length": "3:49",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/jfFesr01zBjJ6NB8pOJb89vQegabAqa49dv-v_vCH8oM41sSM89-u4Gzb0B0DWtCI-25co0hjNVq2Lev=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/jfFesr01zBjJ6NB8pOJb89vQegabAqa49dv-v_vCH8oM41sSM89-u4Gzb0B0DWtCI-25co0hjNVq2Lev=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/jfFesr01zBjJ6NB8pOJb89vQegabAqa49dv-v_vCH8oM41sSM89-u4Gzb0B0DWtCI-25co0hjNVq2Lev=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/jfFesr01zBjJ6NB8pOJb89vQegabAqa49dv-v_vCH8oM41sSM89-u4Gzb0B0DWtCI-25co0hjNVq2Lev=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/jfFesr01zBjJ6NB8pOJb89vQegabAqa49dv-v_vCH8oM41sSM89-u4Gzb0B0DWtCI-25co0hjNVq2Lev=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/jfFesr01zBjJ6NB8pOJb89vQegabAqa49dv-v_vCH8oM41sSM89-u4Gzb0B0DWtCI-25co0hjNVq2Lev=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Adele",
+     "id": "UCRw0x9_EfawqmgDI2IgQLLg"
+    }
+   ],
+   "album": {
+    "name": "Rolling in the Deep",
+    "id": "MPREb_OHZQFZwfw1q"
+   },
+   "year": "2010"
+  },
+  {
+   "videoId": "OWiVJMgms9E",
+   "title": "Voyager",
+   "length": "3:48",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": {
+    "name": "Discovery",
+    "id": "MPREb_7ltM34kr0mH"
+   },
+   "year": "2001"
+  },
+  {
+   "videoId": "Hw2z_MdSf-k",
+   "title": "World, Hold On (Children of the Sky) (feat. Steve Edwards)",
+   "length": "6:42",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/RopDBXs6WiVTzi9kh-KhLF2NMLAcRO1I1cjVjLtrDWi7234Khihvhg5HAORi4pSvxIHcrBM5-bLBbBeN=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/RopDBXs6WiVTzi9kh-KhLF2NMLAcRO1I1cjVjLtrDWi7234Khihvhg5HAORi4pSvxIHcrBM5-bLBbBeN=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/RopDBXs6WiVTzi9kh-KhLF2NMLAcRO1I1cjVjLtrDWi7234Khihvhg5HAORi4pSvxIHcrBM5-bLBbBeN=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/RopDBXs6WiVTzi9kh-KhLF2NMLAcRO1I1cjVjLtrDWi7234Khihvhg5HAORi4pSvxIHcrBM5-bLBbBeN=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/RopDBXs6WiVTzi9kh-KhLF2NMLAcRO1I1cjVjLtrDWi7234Khihvhg5HAORi4pSvxIHcrBM5-bLBbBeN=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/RopDBXs6WiVTzi9kh-KhLF2NMLAcRO1I1cjVjLtrDWi7234Khihvhg5HAORi4pSvxIHcrBM5-bLBbBeN=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Bob Sinclar",
+     "id": "UCTX702H0Fi2v-ukpTSYdhRA"
+    }
+   ],
+   "album": {
+    "name": "Western Dream",
+    "id": "MPREb_mZrW6ZNxu6d"
+   },
+   "year": "2006"
+  },
+  {
+   "videoId": "J7p4bzqLvCw",
+   "title": "Blinding Lights",
+   "length": "3:22",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/R_cjQK3wwLPEzri1jerx-79zgzGocoKvwGU3NMONaTsaMM0Idd641pfB8r5jgfpn6I8JAoFtf9RBIcI=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R_cjQK3wwLPEzri1jerx-79zgzGocoKvwGU3NMONaTsaMM0Idd641pfB8r5jgfpn6I8JAoFtf9RBIcI=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R_cjQK3wwLPEzri1jerx-79zgzGocoKvwGU3NMONaTsaMM0Idd641pfB8r5jgfpn6I8JAoFtf9RBIcI=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R_cjQK3wwLPEzri1jerx-79zgzGocoKvwGU3NMONaTsaMM0Idd641pfB8r5jgfpn6I8JAoFtf9RBIcI=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R_cjQK3wwLPEzri1jerx-79zgzGocoKvwGU3NMONaTsaMM0Idd641pfB8r5jgfpn6I8JAoFtf9RBIcI=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/R_cjQK3wwLPEzri1jerx-79zgzGocoKvwGU3NMONaTsaMM0Idd641pfB8r5jgfpn6I8JAoFtf9RBIcI=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "The Weeknd",
+     "id": "UClYV6hHlupm_S_ObS1W-DYw"
+    }
+   ],
+   "album": {
+    "name": "Blinding Lights",
+    "id": "MPREb_4U7yfKKFZLv"
+   },
+   "year": "2019"
+  },
+  {
+   "videoId": "JnYr3wlVF08",
+   "title": "Stolen Dance",
+   "length": "5:14",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/Svoatiky9xuokvCHvI__7K1_bO52lF-8VGBtMY1OwWZAU1acOjU7H1X2NmMN8w65zqYztxSRy9c-Rns=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Svoatiky9xuokvCHvI__7K1_bO52lF-8VGBtMY1OwWZAU1acOjU7H1X2NmMN8w65zqYztxSRy9c-Rns=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Svoatiky9xuokvCHvI__7K1_bO52lF-8VGBtMY1OwWZAU1acOjU7H1X2NmMN8w65zqYztxSRy9c-Rns=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Svoatiky9xuokvCHvI__7K1_bO52lF-8VGBtMY1OwWZAU1acOjU7H1X2NmMN8w65zqYztxSRy9c-Rns=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Svoatiky9xuokvCHvI__7K1_bO52lF-8VGBtMY1OwWZAU1acOjU7H1X2NmMN8w65zqYztxSRy9c-Rns=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/Svoatiky9xuokvCHvI__7K1_bO52lF-8VGBtMY1OwWZAU1acOjU7H1X2NmMN8w65zqYztxSRy9c-Rns=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Milky Chance",
+     "id": "UCNXdVRjxdHoW3BHYn-czkFg"
+    }
+   ],
+   "album": {
+    "name": "Sadnecessary",
+    "id": "MPREb_tzcX5Yf9F7g"
+   },
+   "year": "2013"
+  },
+  {
+   "videoId": "z2qoihbzc3E",
+   "title": "Stayin Alive",
+   "length": "4:44",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/oB_Qkdo3-SX6vLVS1hyCKw87WNA9UbU7-BtFSPl3BYjeWY9KRmbOvulllXbp6tAMwF22QRnye1ITT092KA=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/oB_Qkdo3-SX6vLVS1hyCKw87WNA9UbU7-BtFSPl3BYjeWY9KRmbOvulllXbp6tAMwF22QRnye1ITT092KA=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/oB_Qkdo3-SX6vLVS1hyCKw87WNA9UbU7-BtFSPl3BYjeWY9KRmbOvulllXbp6tAMwF22QRnye1ITT092KA=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/oB_Qkdo3-SX6vLVS1hyCKw87WNA9UbU7-BtFSPl3BYjeWY9KRmbOvulllXbp6tAMwF22QRnye1ITT092KA=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/oB_Qkdo3-SX6vLVS1hyCKw87WNA9UbU7-BtFSPl3BYjeWY9KRmbOvulllXbp6tAMwF22QRnye1ITT092KA=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/oB_Qkdo3-SX6vLVS1hyCKw87WNA9UbU7-BtFSPl3BYjeWY9KRmbOvulllXbp6tAMwF22QRnye1ITT092KA=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Bee Gees",
+     "id": "UC4GVf3NpBzQiuNVf5EYsI5A"
+    }
+   ],
+   "album": {
+    "name": "The Ultimate Bee Gees",
+    "id": "MPREb_kpgaLQTTh0I"
+   },
+   "year": "2009"
+  },
+  {
+   "videoId": "M4T_k33CI1M",
+   "title": "Cake By The Ocean",
+   "length": "3:40",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/IrACeiFNXvt_DkS1_KMGwRiMbN0-rOqAkyZXs6_dZWnW4_liUywlasSVWVs2q0Bx-hc6SfkupM3vcAip=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/IrACeiFNXvt_DkS1_KMGwRiMbN0-rOqAkyZXs6_dZWnW4_liUywlasSVWVs2q0Bx-hc6SfkupM3vcAip=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/IrACeiFNXvt_DkS1_KMGwRiMbN0-rOqAkyZXs6_dZWnW4_liUywlasSVWVs2q0Bx-hc6SfkupM3vcAip=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/IrACeiFNXvt_DkS1_KMGwRiMbN0-rOqAkyZXs6_dZWnW4_liUywlasSVWVs2q0Bx-hc6SfkupM3vcAip=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/IrACeiFNXvt_DkS1_KMGwRiMbN0-rOqAkyZXs6_dZWnW4_liUywlasSVWVs2q0Bx-hc6SfkupM3vcAip=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/IrACeiFNXvt_DkS1_KMGwRiMbN0-rOqAkyZXs6_dZWnW4_liUywlasSVWVs2q0Bx-hc6SfkupM3vcAip=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "DNCE",
+     "id": "UCFqv7NzmUYnvuFLT9BaLybg"
+    }
+   ],
+   "album": {
+    "name": "DNCE",
+    "id": "MPREb_PvsGYJJjkUg"
+   },
+   "year": "2016"
+  },
+  {
+   "videoId": "48gaaQfS9lc",
+   "title": "(REMASTERED) Daft Punk - Veridis Quo x The Weeknd - In Your Eyes",
+   "length": "6:13",
+   "thumbnail": [
+    {
+     "url": "https://i.ytimg.com/vi/48gaaQfS9lc/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg&rs=AMzJL3kTdvYZoP-pf8hTLeTLA72tV5WYsw",
+     "width": 400,
+     "height": 225
+    },
+    {
+     "url": "https://i.ytimg.com/vi/48gaaQfS9lc/hq720.jpg?sqp=-oaymwEKCKAGEMIDIABIWg&rs=AMzJL3m53N_mw9mWzJrNYFtmHDeov_ERaA",
+     "width": 800,
+     "height": 450
+    },
+    {
+     "url": "https://i.ytimg.com/vi/48gaaQfS9lc/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg&rs=AMzJL3klE0gHvkV-yswLEZ8i2MuhPBZzxw",
+     "width": 853,
+     "height": 479
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_UGC",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "The2005channel",
+     "id": "UCEjS6wyHiDvpoSkxUkRnSUg"
+    }
+   ],
+   "views": "123K"
+  },
+  {
+   "videoId": "1Xfdjqa5dfY",
+   "title": "Wait a Minute!",
+   "length": "3:17",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/4Cgg9ToFyiNiNV2G_R4pZ9ywMZsaQjBp2Jg5FaQC1xaSIO8QfTKifjOztNK2ZqGBndXNNFS7TGw1o-6P7Q=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/4Cgg9ToFyiNiNV2G_R4pZ9ywMZsaQjBp2Jg5FaQC1xaSIO8QfTKifjOztNK2ZqGBndXNNFS7TGw1o-6P7Q=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/4Cgg9ToFyiNiNV2G_R4pZ9ywMZsaQjBp2Jg5FaQC1xaSIO8QfTKifjOztNK2ZqGBndXNNFS7TGw1o-6P7Q=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/4Cgg9ToFyiNiNV2G_R4pZ9ywMZsaQjBp2Jg5FaQC1xaSIO8QfTKifjOztNK2ZqGBndXNNFS7TGw1o-6P7Q=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/4Cgg9ToFyiNiNV2G_R4pZ9ywMZsaQjBp2Jg5FaQC1xaSIO8QfTKifjOztNK2ZqGBndXNNFS7TGw1o-6P7Q=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/4Cgg9ToFyiNiNV2G_R4pZ9ywMZsaQjBp2Jg5FaQC1xaSIO8QfTKifjOztNK2ZqGBndXNNFS7TGw1o-6P7Q=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "WILLOW",
+     "id": "UCiDUvzBa7VmKKi2eXsKN39A"
+    }
+   ],
+   "album": {
+    "name": "ARDIPITHECUS",
+    "id": "MPREb_pHZjXUFSY8P"
+   },
+   "year": "2015"
+  },
+  {
+   "videoId": "e8WoWk4b3D0",
+   "title": "Levitating (feat. DaBaby)",
+   "length": "3:24",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/FL6KpTJ1UpVl6RVm6iLkp4Z_5RKj2GNaZiRDyQrnskekZ_V0uETwRHFXqtYMtNSh7uG6YeKV7Pnoiuhp=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/FL6KpTJ1UpVl6RVm6iLkp4Z_5RKj2GNaZiRDyQrnskekZ_V0uETwRHFXqtYMtNSh7uG6YeKV7Pnoiuhp=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/FL6KpTJ1UpVl6RVm6iLkp4Z_5RKj2GNaZiRDyQrnskekZ_V0uETwRHFXqtYMtNSh7uG6YeKV7Pnoiuhp=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/FL6KpTJ1UpVl6RVm6iLkp4Z_5RKj2GNaZiRDyQrnskekZ_V0uETwRHFXqtYMtNSh7uG6YeKV7Pnoiuhp=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/FL6KpTJ1UpVl6RVm6iLkp4Z_5RKj2GNaZiRDyQrnskekZ_V0uETwRHFXqtYMtNSh7uG6YeKV7Pnoiuhp=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/FL6KpTJ1UpVl6RVm6iLkp4Z_5RKj2GNaZiRDyQrnskekZ_V0uETwRHFXqtYMtNSh7uG6YeKV7Pnoiuhp=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Dua Lipa",
+     "id": "UCzVb0SIXp9q9PeKCcFjsBtA"
+    }
+   ],
+   "album": {
+    "name": "Levitating",
+    "id": "MPREb_w9JnH6HKK36"
+   },
+   "year": "2020"
+  },
+  {
+   "videoId": "r02mYOlfcCw",
+   "title": "We Are The People",
+   "length": "4:28",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/HsEwUQH8tH10S_G33c9a-iv7iUJ7Ksbfbdpemb2B_uNqjYvf-hB4AMGHNf6gDurP4g4ZTa-3GnMGGwIa=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/HsEwUQH8tH10S_G33c9a-iv7iUJ7Ksbfbdpemb2B_uNqjYvf-hB4AMGHNf6gDurP4g4ZTa-3GnMGGwIa=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/HsEwUQH8tH10S_G33c9a-iv7iUJ7Ksbfbdpemb2B_uNqjYvf-hB4AMGHNf6gDurP4g4ZTa-3GnMGGwIa=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/HsEwUQH8tH10S_G33c9a-iv7iUJ7Ksbfbdpemb2B_uNqjYvf-hB4AMGHNf6gDurP4g4ZTa-3GnMGGwIa=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/HsEwUQH8tH10S_G33c9a-iv7iUJ7Ksbfbdpemb2B_uNqjYvf-hB4AMGHNf6gDurP4g4ZTa-3GnMGGwIa=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/HsEwUQH8tH10S_G33c9a-iv7iUJ7Ksbfbdpemb2B_uNqjYvf-hB4AMGHNf6gDurP4g4ZTa-3GnMGGwIa=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Empire Of The Sun",
+     "id": "UC39pUcAh8ipNPkA1W0dR0cA"
+    }
+   ],
+   "album": {
+    "name": "Walking On A Dream (10th Anniversary Edition)",
+    "id": "MPREb_nw4xeN2KShH"
+   },
+   "year": "2008"
+  },
+  {
+   "videoId": "RmYCOm4ehKs",
+   "title": "Save Your Tears",
+   "length": "3:36",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/JDKz3Anlyo49xBhFcFx13QD_Tk4-kqdiYTo15gtkL93nE8biWyZ7o0BPyW6RnXVxcXaJ5DgU5nJ_0NjJ=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/JDKz3Anlyo49xBhFcFx13QD_Tk4-kqdiYTo15gtkL93nE8biWyZ7o0BPyW6RnXVxcXaJ5DgU5nJ_0NjJ=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/JDKz3Anlyo49xBhFcFx13QD_Tk4-kqdiYTo15gtkL93nE8biWyZ7o0BPyW6RnXVxcXaJ5DgU5nJ_0NjJ=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/JDKz3Anlyo49xBhFcFx13QD_Tk4-kqdiYTo15gtkL93nE8biWyZ7o0BPyW6RnXVxcXaJ5DgU5nJ_0NjJ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/JDKz3Anlyo49xBhFcFx13QD_Tk4-kqdiYTo15gtkL93nE8biWyZ7o0BPyW6RnXVxcXaJ5DgU5nJ_0NjJ=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/JDKz3Anlyo49xBhFcFx13QD_Tk4-kqdiYTo15gtkL93nE8biWyZ7o0BPyW6RnXVxcXaJ5DgU5nJ_0NjJ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "The Weeknd",
+     "id": "UClYV6hHlupm_S_ObS1W-DYw"
+    }
+   ],
+   "album": {
+    "name": "After Hours",
+    "id": "MPREb_TH6Wut5eTMQ"
+   },
+   "year": "2020"
+  },
+  {
+   "videoId": "qXI87eMP-bs",
+   "title": "Face to Face",
+   "length": "4:01",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/qrY7xjdjqL0FEneZKHk845JeeFjdWOgexUa_BhsUxskJ2iflhzpbofqGJZBcPHDGU9JjoZflE4yn3P74=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "Daft Punk",
+     "id": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+   ],
+   "album": {
+    "name": "Discovery",
+    "id": "MPREb_7ltM34kr0mH"
+   },
+   "year": "2001"
+  },
+  {
+   "videoId": "EfqsJm6BKng",
+   "title": "Love Me Again",
+   "length": "4:00",
+   "thumbnail": [
+    {
+     "url": "https://yt3.googleusercontent.com/2rfm_4cuPmjrdJvqdAZvH3kZXRxVQrcgRca_UEDbuoi5c3Y3oeR9qhF_nq9uUh25PV5KuDDBv-_JQfL2=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/2rfm_4cuPmjrdJvqdAZvH3kZXRxVQrcgRca_UEDbuoi5c3Y3oeR9qhF_nq9uUh25PV5KuDDBv-_JQfL2=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/2rfm_4cuPmjrdJvqdAZvH3kZXRxVQrcgRca_UEDbuoi5c3Y3oeR9qhF_nq9uUh25PV5KuDDBv-_JQfL2=w180-h180-l90-rj",
+     "width": 180,
+     "height": 180
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/2rfm_4cuPmjrdJvqdAZvH3kZXRxVQrcgRca_UEDbuoi5c3Y3oeR9qhF_nq9uUh25PV5KuDDBv-_JQfL2=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/2rfm_4cuPmjrdJvqdAZvH3kZXRxVQrcgRca_UEDbuoi5c3Y3oeR9qhF_nq9uUh25PV5KuDDBv-_JQfL2=w302-h302-l90-rj",
+     "width": 302,
+     "height": 302
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/2rfm_4cuPmjrdJvqdAZvH3kZXRxVQrcgRca_UEDbuoi5c3Y3oeR9qhF_nq9uUh25PV5KuDDBv-_JQfL2=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ],
+   "likeStatus": null,
+   "videoType": "MUSIC_VIDEO_TYPE_ATV",
+   "inLibrary": false,
+   "pinnedToListenAgain": false,
+   "artists": [
+    {
+     "name": "John Newman",
+     "id": "UCl1EhIbzUq6d1p2Bb1w22FA"
+    }
+   ],
+   "album": {
+    "name": "Tribute",
+    "id": "MPREb_abn4NkOAR6F"
+   },
+   "year": "2013"
+  }
+ ],
+ "playlistId": "RDAMVM4D7u5KF7SP8",
+ "lyrics": "MPLYt_K8qWMWVqXGi-8",
+ "related": "MPTRt_K8qWMWVqXGi-8"
+}

@@ -1,0 +1,57 @@
+{
+ "playabilityStatus": {
+  "status": "OK",
+  "playableInEmbed": true,
+  "audioOnlyPlayability": {
+   "audioOnlyPlayabilityRenderer": {
+    "audioOnlyAvailability": "FEATURE_AVAILABILITY_ALLOWED"
+   }
+  },
+  "miniplayer": {
+   "miniplayerRenderer": {
+    "playbackMode": "PLAYBACK_MODE_ALLOW"
+   }
+  },
+  "contextParams": "Q0FFU0FnZ0I="
+ },
+ "videoDetails": {
+  "videoId": "4D7u5KF7SP8",
+  "title": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+  "lengthSeconds": "370",
+  "channelId": "UCRr1xG_2WIDs18a6cIiCxeA",
+  "isOwnerViewing": false,
+  "isCrawlable": true,
+  "thumbnail": {
+   "thumbnails": [
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w60-h60-l90-rj",
+     "width": 60,
+     "height": 60
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w120-h120-l90-rj",
+     "width": 120,
+     "height": 120
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w226-h226-l90-rj",
+     "width": 226,
+     "height": 226
+    },
+    {
+     "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w544-h544-l90-rj",
+     "width": 544,
+     "height": 544
+    }
+   ]
+  },
+  "allowRatings": true,
+  "viewCount": "355811234",
+  "author": "Daft Punk, Pharrell Williams, & Nile Rodgers",
+  "isPrivate": false,
+  "isUnpluggedCorpus": false,
+  "musicVideoType": "MUSIC_VIDEO_TYPE_ATV",
+  "isLiveContent": false,
+  "isTvfilmVideo": false
+ }
+}

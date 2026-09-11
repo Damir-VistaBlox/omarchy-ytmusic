@@ -1,0 +1,27 @@
+#!/bin/bash
+# Command-line front end for the damir.ytmusic backend (ytmusicapi via uv).
+# The shell also starts the worker through this: `ytm serve`.
+#
+#   ytm search QUERY [--filter songs|albums|playlists|artists|videos]
+#   ytm call METHOD '{"param": "value"}'
+#   ytm auth [--from-browser chromium[:PROFILE] | --paste | --clipboard]
+#   ytm logout | whoami | selftest [--online] | serve [--idle SECONDS]
+set -euo pipefail
+
+ROOT=$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")/.." && pwd)
+SCRIPT="$ROOT/backend/ytm.py"
+
+# Nothing may be written into the plugin directory at runtime: the shell
+# watches it and would reload every plugin.
+export PYTHONDONTWRITEBYTECODE=1
+export PYTHONUNBUFFERED=1
+
+# Run the script's own uv environment directly when it exists: `uv run`
+# stays alive as the worker's parent (~24 MiB for its whole life). `uv
+# python find --script` only points into environments-v2 when an environment
+# for the script's current dependencies exists; otherwise let `uv run` build it.
+python=$(uv python find --script "$SCRIPT" 2>/dev/null || true)
+if [[ $python == */environments-v2/* && -x $python ]]; then
+  exec "$python" "$SCRIPT" "$@"
+fi
+exec uv run --quiet --script "$SCRIPT" "$@"

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "damir.ytmusic",
+  "name": "YouTube Music",
+  "version": "1.0.0",
+  "author": "Damir Sagi",
+  "description": "YouTube Music in a native bar panel: ytmusicapi for search and library, mpv for audio-only playback. No browser.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "YouTube Music",
+    "description": "Now playing, search, playlists and likes for YouTube Music",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "display": "icon"
+    },
+    "schema": [
+      {
+        "key": "display",
+        "type": "enum",
+        "options": ["icon", "player"],
+        "label": "Bar display",
+        "defaultValue": "icon",
+        "description": "icon for the music mark only, player for scrolling now-playing text."
+      }
+    ]
+  }
+}

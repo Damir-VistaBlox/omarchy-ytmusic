@@ -1,0 +1,111 @@
+#!/bin/bash
+# Start, stop and inspect the detached mpv player used by damir.ytmusic.
+#
+# mpv runs in its own systemd user unit so playback survives plugin hot
+# reloads and shell restarts. The shell talks to it over the JSON IPC socket.
+#
+# Memory: mpv itself stays around 70-80 MiB, but every track change runs
+# yt-dlp and deno (YouTube's JS challenge) inside this unit for a few seconds,
+# peaking around 340 MiB. A MemoryHigh below that throttles the resolve
+# (7.5 s instead of ~2-3.5 s), so there is only a MemoryMax against runaways.
+#
+#   ytm-mpv start [--volume N]   start the unit (no-op if already running)
+#   ytm-mpv stop                 stop the unit
+#   ytm-mpv status               print unit state and socket path
+#   ytm-mpv socket               print the IPC socket path
+#   ytm-mpv exec [--volume N]    run mpv in the foreground (used by the unit)
+set -euo pipefail
+
+ROOT=$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")/.." && pwd)
+UNIT=omarchy-ytmusic-mpv
+RUNTIME_DIR="${XDG_RUNTIME_DIR:-/run/user/$(id -u)}/omarchy-ytmusic"
+SOCKET="$RUNTIME_DIR/mpv.sock"
+CONFIG_DIR="${YTM_CONFIG_DIR:-$HOME/.config/omarchy-ytmusic}"
+COOKIES="$CONFIG_DIR/cookies.txt"
+
+MPRIS=/etc/mpv/scripts/mpris.so
+[[ -f $MPRIS ]] || MPRIS=/usr/lib/mpv-mpris/mpris.so
+
+cmd=${1:-}
+[[ $# -gt 0 ]] && shift
+
+volume=70
+while (( $# > 0 )); do
+  case $1 in
+  --volume)
+    volume=${2:-70}
+    shift 2
+    ;;
+  *)
+    echo "ytm-mpv: unknown option: $1" >&2
+    exit 2
+    ;;
+  esac
+done
+[[ $volume =~ ^[0-9]+$ ]] || volume=70
+
+start() {
+  systemctl --user is-active --quiet "$UNIT" && return 0
+  systemctl --user reset-failed "$UNIT" 2>/dev/null || true
+  systemd-run --user --quiet --collect --unit="$UNIT" \
+    --description="omarchy-ytmusic player" \
+    -p RuntimeDirectory=omarchy-ytmusic -p RuntimeDirectoryMode=0700 \
+    -p MemoryMax=768M \
+    -E PATH="$PATH" \
+    -- "$ROOT/bin/ytm-mpv" exec --volume "$volume"
+}
+
+run_mpv() {
+  local -a args=(
+    --no-config
+    --script="$ROOT/mpv/ytm-idle.lua"
+    --script="$ROOT/mpv/ytm-streams.lua"
+    --script-opts=ytm-idle-idle_secs=300,ytm-idle-pause_secs=1800
+    --idle=yes
+    --no-video
+    --force-window=no
+    --no-terminal
+    --msg-level=all=warn
+    --input-ipc-server="$SOCKET"
+    --ytdl-format='bestaudio[acodec=opus]/bestaudio/best'
+    --cache=yes
+    --demuxer-max-bytes=8MiB
+    --demuxer-max-back-bytes=4MiB
+    --audio-client-name=omarchy-ytmusic
+    --volume="$volume"
+    --osc=no
+    --load-stats-overlay=no
+    --load-console=no
+    --load-osd-console=no
+    --load-auto-profiles=no
+    --load-select=no
+    --load-positioning=no
+    --load-commands=no
+    --load-context-menu=no
+  )
+  # Media keys and the OSD follow the player over MPRIS (package mpv-mpris).
+  if [[ -f $MPRIS ]]; then
+    args+=(--script="$MPRIS")
+  fi
+  # Streaming with the account's cookies is opt-in: measured on this machine it
+  # offered the same formats (opus 251, ~131 kbps) but made every track start
+  # ~1.5 s later. Useful only for tracks that need a signed-in viewer.
+  if [[ -f $COOKIES && ${YTM_STREAM_WITH_ACCOUNT:-0} == 1 ]]; then
+    args+=(--ytdl-raw-options-append=cookies="$COOKIES")
+  fi
+  exec mpv "${args[@]}"
+}
+
+case $cmd in
+start) start ;;
+stop) systemctl --user stop "$UNIT" 2>/dev/null || true ;;
+status)
+  printf 'unit: %s\nsocket: %s\n' "$(systemctl --user is-active "$UNIT" 2>/dev/null || true)" "$SOCKET"
+  ;;
+socket) echo "$SOCKET" ;;
+exec) run_mpv ;;
+*)
+  echo "usage: ytm-mpv <start|stop|status|socket|exec> [--volume N]" >&2
+  exit 2
+  ;;
+esac

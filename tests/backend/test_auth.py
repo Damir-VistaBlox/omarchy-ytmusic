@@ -1,5 +1,7 @@
 import json
 import stat
+import sys
+import types
 from types import SimpleNamespace
 
 import pytest
@@ -148,6 +150,85 @@ def test_browser_import_needs_signed_in_profile(config_dir, tmp_path):
 
     with pytest.raises(auth.AuthError, match="not signed in"):
         auth.import_from_browser("chromium", str(tmp_path), factory=FakeClient, extractor=extractor)
+
+
+def test_browser_import_refuses_cookies_it_could_not_decrypt(config_dir, tmp_path):
+    profile = tmp_path / "Default"
+    profile.mkdir()
+
+    def extractor(browser, profile, logger, keyring):
+        return [SimpleNamespace(domain=".youtube.com", name="__Secure-3PAPISID", value="",
+                                path="/", secure=True, expires=0)]
+
+    with pytest.raises(auth.AuthError, match="could not be decrypted"):
+        auth.import_from_browser("chromium", str(profile), factory=FakeClient, extractor=extractor)
+
+
+class KeyringItem:
+    def __init__(self, label, application, secret):
+        self._label, self._application, self._secret = label, application, secret
+
+    def get_label(self):
+        return self._label
+
+    def get_attributes(self):
+        return {"application": self._application}
+
+    def get_secret(self):
+        return self._secret
+
+
+def fake_secretstorage(monkeypatch, items):
+    module = types.SimpleNamespace(
+        dbus_init=lambda: SimpleNamespace(close=lambda: None),
+        get_default_collection=lambda con: SimpleNamespace(get_all_items=lambda: items),
+    )
+    monkeypatch.setitem(sys.modules, "secretstorage", module)
+
+
+def test_keyring_lookup_takes_the_browsers_own_key(monkeypatch):
+    fake_secretstorage(monkeypatch, [
+        KeyringItem("Chromium Safe Storage", "Code", b"other-app"),
+        KeyringItem("Chromium Safe Storage", "chromium", b"chromium"),
+        KeyringItem("Chrome Safe Storage", "chrome", b"chrome"),
+    ])
+    fallback = lambda name, logger: b"yt-dlp-first-item"  # noqa: E731
+    assert auth._gnome_keyring_password("Chromium", None, fallback) == b"chromium"
+    assert auth._gnome_keyring_password("Chrome", None, fallback) == b"chrome"
+
+
+def test_keyring_lookup_falls_back_to_yt_dlp(monkeypatch):
+    fake_secretstorage(monkeypatch, [KeyringItem("Chromium Safe Storage", "Code", b"other-app")])
+    fallback = lambda name, logger: b"yt-dlp-first-item"  # noqa: E731
+    assert auth._gnome_keyring_password("Chromium", None, fallback) == b"yt-dlp-first-item"
+
+    monkeypatch.setitem(sys.modules, "secretstorage", None)
+    assert auth._gnome_keyring_password("Chromium", None, fallback) == b"yt-dlp-first-item"
+
+
+def test_extract_from_browser_patches_and_restores_the_keyring_lookup(monkeypatch):
+    cookies = types.SimpleNamespace(_get_gnome_keyring_password=lambda name, logger: b"original")
+    yt_dlp = types.ModuleType("yt_dlp")
+    yt_dlp.cookies = cookies
+    monkeypatch.setitem(sys.modules, "yt_dlp", yt_dlp)
+    monkeypatch.setitem(sys.modules, "yt_dlp.cookies", cookies)
+    original = cookies._get_gnome_keyring_password
+
+    seen = {}
+
+    def extractor(browser, profile, logger, keyring):
+        seen["during"] = cookies._get_gnome_keyring_password
+        return ["jar"]
+
+    def lookup(name, log, fallback):
+        seen["name"] = name
+        return b"fixed"
+
+    monkeypatch.setattr(auth, "_gnome_keyring_password", lookup)
+    assert auth.extract_from_browser(extractor, "chromium", "/profile", None, "GNOMEKEYRING") == ["jar"]
+    assert cookies._get_gnome_keyring_password is original
+    assert seen["during"] is not original and seen["during"]("Chromium", None) == b"fixed"
+    assert seen["name"] == "Chromium"
 
 
 def test_logout_removes_session(config_dir, monkeypatch):

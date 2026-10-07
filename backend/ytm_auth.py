@@ -232,6 +232,53 @@ class _QuietLogger:
         norm.log(f"yt-dlp: {message}")
 
 
+def _gnome_keyring_password(browser_keyring_name, logger, fallback):
+    """yt-dlp's libsecret lookup, but only for the browser's own key.
+
+    VS Code and other Chromium-based apps store a password in the same keyring
+    under the same ``Chromium Safe Storage`` label, and yt-dlp returns the first
+    item with that label — another app's key decrypts every cookie to nothing.
+    """
+    import contextlib
+
+    try:
+        import secretstorage
+    except Exception:  # noqa: BLE001 - no secretstorage or no session bus
+        return fallback(browser_keyring_name, logger)
+    try:
+        with contextlib.closing(secretstorage.dbus_init()) as con:
+            for item in secretstorage.get_default_collection(con).get_all_items():
+                if item.get_label() != f"{browser_keyring_name} Safe Storage":
+                    continue
+                application = (item.get_attributes() or {}).get("application", "")
+                if application.lower() == browser_keyring_name.lower():
+                    return item.get_secret()
+    except Exception:  # noqa: BLE001 - a broken keyring must not change the error
+        pass
+    return fallback(browser_keyring_name, logger)
+
+
+def extract_from_browser(extractor, browser, profile, logger, keyring):
+    """Run yt-dlp's extractor with the keyring lookup above in its place.
+
+    yt-dlp's own lookup is the fallback, and if a future version no longer has
+    it, the extraction runs exactly as that version intends.
+    """
+    try:
+        import yt_dlp.cookies as cookies
+    except ImportError:  # a caller-provided extractor needs no yt-dlp
+        return extractor(browser, profile=profile, logger=logger, keyring=keyring)
+
+    original = getattr(cookies, "_get_gnome_keyring_password", None)
+    if original is None:
+        return extractor(browser, profile=profile, logger=logger, keyring=keyring)
+    cookies._get_gnome_keyring_password = lambda name, log: _gnome_keyring_password(name, log, original)
+    try:
+        return extractor(browser, profile=profile, logger=logger, keyring=keyring)
+    finally:
+        cookies._get_gnome_keyring_password = original
+
+
 def find_profile(browser, profile=None):
     if profile:
         return str(Path(profile).expanduser())
@@ -250,10 +297,13 @@ def import_from_browser(browser="chromium", profile=None, authuser=0, keyring="G
         raise AuthError("no Chromium profile found; pass --from-browser chromium:/path/to/profile")
     if extractor is None:
         from yt_dlp.cookies import extract_cookies_from_browser as extractor
-    jar = extractor(browser, profile=profile, logger=_QuietLogger(), keyring=keyring)
+    jar = extract_from_browser(extractor, browser, profile, _QuietLogger(), keyring)
     youtube = [c for c in jar if c.domain.endswith("youtube.com")]
     if REQUIRED_COOKIE not in {c.name for c in youtube}:
         raise AuthError("that profile is not signed in to YouTube (open music.youtube.com there and sign in)")
+    if not next(c.value for c in youtube if c.name == REQUIRED_COOKIE):
+        raise AuthError(f"the {browser} profile's cookies could not be decrypted (its keyring password "
+                        f"is not the one yt-dlp found); sign in with --paste instead")
     header = "; ".join(f"{c.name}={c.value}" for c in youtube
                        if c.domain in (".youtube.com", "youtube.com", "music.youtube.com"))
     file_cookies = [cookie_record(c.domain, c.name, c.value, c.path, c.secure, c.expires)

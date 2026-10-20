@@ -1,5 +1,6 @@
 import json
 import stat
+from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
@@ -148,6 +149,52 @@ def test_browser_import_needs_signed_in_profile(config_dir, tmp_path):
 
     with pytest.raises(auth.AuthError, match="not signed in"):
         auth.import_from_browser("chromium", str(tmp_path), factory=FakeClient, extractor=extractor)
+
+
+def fake_browsers(monkeypatch, tmp_path, default, signed_in):
+    profiles = {}
+    for prefix, name in (("chromium", "chromium"), ("brave-origin", "brave"), ("brave-browser", "brave")):
+        profiles[prefix] = (prefix, name, tmp_path / prefix / "Default")
+        if prefix in signed_in:
+            (tmp_path / prefix / "Default" / "Network").mkdir(parents=True)
+            (tmp_path / prefix / "Default" / "Network" / "Cookies").touch()
+    monkeypatch.setattr(auth, "BROWSER_PROFILES", tuple(profiles.values()))
+    monkeypatch.setattr(auth, "default_browser", lambda: default)
+    return {prefix: str(entry[2]) for prefix, entry in profiles.items()}
+
+
+def test_find_profile_prefers_the_default_browser(monkeypatch, tmp_path):
+    paths = fake_browsers(monkeypatch, tmp_path, "brave-origin.desktop", {"chromium", "brave-origin"})
+    assert auth.find_profile() == ("brave", paths["brave-origin"])
+    assert auth.find_profile("chromium") == ("chromium", paths["chromium"])
+    assert auth.find_profile("brave", "~/elsewhere") == ("brave", str(Path.home() / "elsewhere"))
+
+
+def test_find_profile_falls_back_to_any_browser(monkeypatch, tmp_path):
+    paths = fake_browsers(monkeypatch, tmp_path, "firefox.desktop", {"brave-browser"})
+    assert auth.find_profile() == ("brave", paths["brave-browser"])
+    assert auth.find_profile("firefox") == ("firefox", None)
+
+
+def test_browser_import_uses_the_detected_browser(config_dir, monkeypatch, tmp_path):
+    fake_setup(monkeypatch)
+    paths = fake_browsers(monkeypatch, tmp_path, "brave-origin.desktop", {"chromium", "brave-origin"})
+    seen = {}
+
+    def extractor(browser, profile, logger, keyring):
+        seen.update(browser=browser, profile=profile)
+        return [SimpleNamespace(domain=".youtube.com", name="__Secure-3PAPISID", value="x", path="/",
+                                secure=True, expires=0)]
+
+    account = auth.import_from_browser(factory=FakeClient, extractor=extractor)
+    assert seen == {"browser": "brave", "profile": paths["brave-origin"]}
+    assert account["method"] == "browser:brave"
+
+
+def test_browser_import_without_any_profile(config_dir, monkeypatch, tmp_path):
+    fake_browsers(monkeypatch, tmp_path, "", set())
+    with pytest.raises(auth.AuthError, match="no browser profile"):
+        auth.import_from_browser(factory=FakeClient, extractor=lambda *a, **k: [])
 
 
 def test_logout_removes_session(config_dir, monkeypatch):

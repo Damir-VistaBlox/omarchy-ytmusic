@@ -75,7 +75,8 @@ Optional:
 
 - **Sign in** for your playlists, likes, history and Home: Library → **Sign
   in** (or `~/.config/omarchy/plugins/damir.ytmusic/bin/ytm auth`). It copies
-  your YouTube session from Chromium, so be signed in to YouTube there.
+  your YouTube session from your default browser (Chromium, Brave, Brave
+  Origin or Chrome), so be signed in to YouTube there.
 - **Shortcut**, e.g. in `~/.config/hypr/bindings.lua`:
   `o.bind("SUPER + M", "YouTube Music", "omarchy-shell shell toggle damir.ytmusic")`.
 - **Check the installation**: `~/.config/omarchy/plugins/damir.ytmusic/bin/ytm selftest --online`.
@@ -104,8 +105,9 @@ follow symlinks) and run `scripts/test.sh`.
 ### Signing in
 
 `bin/ytm auth` (or **Sign in** in the Library tab) copies the YouTube session
-from your Chromium profile (`~/.config/chromium/Default`; another one with
-`--from-browser chromium:PROFILE`) straight from the cookie store, never through the
+from the `Default` profile of Omarchy's default browser (Chromium, Brave, Brave
+Origin or Chrome; if it has none, the first of those that does; another one with
+`--from-browser BROWSER:PROFILE`) straight from the cookie store, never through the
 clipboard (Omarchy's clipboard history is saved in plain text). The new
 session is verified before it replaces the old one. The shell only reads
 `account.json`; if YouTube stops accepting the session you get one
@@ -157,7 +159,7 @@ after it closes.
 | `mpv/ytm-idle.lua` | Quits mpv after it has idled or been paused too long |
 | `backend/ytm.py` | ytmusicapi worker (`serve`) and CLI; PEP 723 script run with `uv` |
 | `backend/ytm_normalize.py` | Turns ytmusicapi responses into stable Track/Album/Playlist/Artist/Collection shapes |
-| `backend/ytm_auth.py` | Session files and sign-in (Chromium cookie import, pasted headers) |
+| `backend/ytm_auth.py` | Session files and sign-in (browser cookie import, pasted headers) |
 | `bin/ytm` | CLI wrapper (`uv run --script backend/ytm.py`, no bytecode) |
 | `scripts/test.sh` | Fixture secrets check + node + pytest, without caches |
 | `scripts/mem.sh` | PSS report: shell, mpv unit, worker |
@@ -184,7 +186,7 @@ omarchy-shell ytmusic volume 60
 bin/ytm-mpv start|stop|status
 scripts/mem.sh
 
-bin/ytm auth                      # sign in: import the session from a Chromium profile
+bin/ytm auth                      # sign in: import the session from the default browser
 bin/ytm auth --paste              # fallback: paste request headers of a /browse call
 bin/ytm whoami | logout
 bin/ytm search daft punk --filter songs
@@ -199,7 +201,7 @@ scripts/test.sh
 |---|---|
 | "YouTube Music playback keeps failing" | yt-dlp is probably out of date for a YouTube change: `omarchy update`, then press play (it continues from the song that failed). `mpv --no-video 'https://www.youtube.com/watch?v=…'` shows yt-dlp's own error. |
 | "Can't reach YouTube Music" | No connection. Press play once it's back; the queue is kept. |
-| Sign-in expired (banner, notification) | Make sure you're signed in to YouTube in Chromium, then **Sign in again** (or `bin/ytm auth`). `bin/ytm auth --from-browser chromium:"Profile 1"` picks another profile. |
+| Sign-in expired (banner, notification) | Make sure you're signed in to YouTube in your default browser, then **Sign in again** (or `bin/ytm auth`). `bin/ytm auth --from-browser chromium:"Profile 1"` picks another browser or profile. |
 | Library, playlist or Home looks stale | It refreshes itself right after showing the cached copy. `rm -rf ~/.cache/omarchy-ytmusic/data` is always safe. |
 | No bar icon | `omarchy plugin list \| grep ytmusic`, `omarchy plugin validate ~/.config/omarchy/plugins/damir.ytmusic`. |
 | Something odd | `omarchy-shell ytmusic status \| jq` (player, worker, auth, last error), `bin/ytm selftest --online`, `journalctl --user -b \| grep ytmusic`. mpv itself runs with `--no-terminal`, so it logs almost nothing. |

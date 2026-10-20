@@ -4,7 +4,7 @@
 #
 #   ytm search QUERY [--filter songs|albums|playlists|artists|videos]
 #   ytm call METHOD '{"param": "value"}'
-#   ytm auth [--from-browser chromium[:PROFILE] | --paste | --clipboard]
+#   ytm auth [--from-browser BROWSER[:PROFILE] | --paste | --clipboard]
 #   ytm logout | whoami | selftest [--online] | serve [--idle SECONDS]
 set -euo pipefail
 

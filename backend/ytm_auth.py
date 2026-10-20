@@ -8,22 +8,28 @@ The session lives outside the plugin repository in ``~/.config/omarchy-ytmusic``
 - ``account.json`` (0600): display name/handle/photo only, no secrets; the
   shell reads this one to know whether you are signed in
 
-Default sign-in imports the session cookies straight from a Chromium profile.
-Pasting request headers is the fallback; it goes through the clipboard, whose
-history Omarchy stores in plain text.
+Default sign-in imports the session cookies straight from a browser profile,
+Omarchy's default browser first. Pasting request headers is the fallback; it
+goes through the clipboard, whose history Omarchy stores in plain text.
 """
 
 import json
 import os
 import shutil
+import subprocess
 import tempfile
 import time
 from pathlib import Path
 
 import ytm_normalize as norm
 
-CHROMIUM_PROFILES = (
-    Path.home() / ".config/chromium/Default",
+# (desktop entry prefix, yt-dlp browser, profile). Brave Origin keeps its
+# cookie key under "Brave Safe Storage", so yt-dlp reads it as "brave".
+BROWSER_PROFILES = (
+    ("chromium", "chromium", Path.home() / ".config/chromium/Default"),
+    ("brave-origin", "brave", Path.home() / ".config/BraveSoftware/Brave-Origin/Default"),
+    ("brave-browser", "brave", Path.home() / ".config/BraveSoftware/Brave-Browser/Default"),
+    ("google-chrome", "chrome", Path.home() / ".config/google-chrome/Default"),
 )
 SESSION_FILES = ("browser.json", "cookies.txt", "account.json")
 REQUIRED_COOKIE = "__Secure-3PAPISID"
@@ -232,28 +238,40 @@ class _QuietLogger:
         norm.log(f"yt-dlp: {message}")
 
 
-def find_profile(browser, profile=None):
+def default_browser():
+    """Desktop entry of Omarchy's default browser (``brave-origin.desktop``), or ``""``."""
+    try:
+        return subprocess.run(["omarchy-cmd-default-browser"], capture_output=True, text=True,
+                              timeout=5, check=False).stdout.strip()
+    except (OSError, subprocess.SubprocessError):
+        return ""
+
+
+def find_profile(browser=None, profile=None):
+    """``(browser, profile)`` to import from; without a browser, the default one goes first."""
     if profile:
-        return str(Path(profile).expanduser())
-    if browser == "chromium":
-        for candidate in CHROMIUM_PROFILES:
-            if (candidate / "Cookies").exists() or (candidate / "Network" / "Cookies").exists():
-                return str(candidate)
-    return None
+        return browser or "chromium", str(Path(profile).expanduser())
+    default = default_browser()
+    candidates = sorted(BROWSER_PROFILES, key=lambda entry: not default.startswith(entry[0]))
+    for _, name, path in candidates:
+        if browser in (None, name) and ((path / "Cookies").exists() or (path / "Network" / "Cookies").exists()):
+            return name, str(path)
+    return browser, None
 
 
-def import_from_browser(browser="chromium", profile=None, authuser=0, keyring="GNOMEKEYRING",
+def import_from_browser(browser=None, profile=None, authuser=0, keyring="GNOMEKEYRING",
                         factory=None, extractor=None):
     """Sign in with the YouTube cookies of a local browser profile."""
-    profile = find_profile(browser, profile)
-    if browser == "chromium" and not profile:
-        raise AuthError("no Chromium profile found; pass --from-browser chromium:/path/to/profile")
+    browser, profile = find_profile(browser, profile)
+    if browser in (None, "chromium") and not profile:
+        raise AuthError("no browser profile found; pass --from-browser BROWSER:/path/to/profile")
     if extractor is None:
         from yt_dlp.cookies import extract_cookies_from_browser as extractor
     jar = extractor(browser, profile=profile, logger=_QuietLogger(), keyring=keyring)
     youtube = [c for c in jar if c.domain.endswith("youtube.com")]
     if REQUIRED_COOKIE not in {c.name for c in youtube}:
-        raise AuthError("that profile is not signed in to YouTube (open music.youtube.com there and sign in)")
+        raise AuthError(f"{profile or browser} is not signed in to YouTube "
+                        "(open music.youtube.com there and sign in)")
     header = "; ".join(f"{c.name}={c.value}" for c in youtube
                        if c.domain in (".youtube.com", "youtube.com", "music.youtube.com"))
     file_cookies = [cookie_record(c.domain, c.name, c.value, c.path, c.secure, c.expires)

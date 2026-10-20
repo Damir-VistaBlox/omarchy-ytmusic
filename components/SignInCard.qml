@@ -31,7 +31,7 @@ Column {
     width: parent.width
     textFormat: Text.PlainText
     text: "Your playlists, likes, history and recommendations need your account. "
-      + "Sign-in copies your YouTube session from your Chromium profile — "
+      + "Sign-in copies your YouTube session from your default browser — "
       + "nothing goes through the clipboard."
     color: Qt.darker(root.foreground, 1.3)
     font.family: root.fontFamily

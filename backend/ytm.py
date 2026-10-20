@@ -611,8 +611,8 @@ def cmd_auth(args):
                   file=sys.stderr)
             account = auth.import_from_headers(raw)
         else:
-            browser, _, profile = (args.from_browser or "chromium").partition(":")
-            account = auth.import_from_browser(browser, profile or None, args.authuser, args.keyring)
+            browser, _, profile = (args.from_browser or "").partition(":")
+            account = auth.import_from_browser(browser or None, profile or None, args.authuser, args.keyring)
     except auth.AuthError as exc:
         print(f"Sign-in failed: {exc}", file=sys.stderr)
         return 1
@@ -727,9 +727,10 @@ def main(argv=None):
     p = sub.add_parser("call", help="call any worker method")
     p.add_argument("method", choices=sorted(METHODS))
     p.add_argument("params", nargs="?", default="{}", help="JSON object")
-    p = sub.add_parser("auth", help="sign in (default: import from a Chromium profile)")
+    p = sub.add_parser("auth", help="sign in (default: import from Omarchy's default browser)")
     source = p.add_mutually_exclusive_group()
-    source.add_argument("--from-browser", metavar="BROWSER[:PROFILE]", help="default chromium, auto-detected profile")
+    source.add_argument("--from-browser", metavar="BROWSER[:PROFILE]",
+                        help="chromium, brave, chrome, …; default Omarchy's default browser, auto-detected profile")
     source.add_argument("--paste", action="store_true", help="read request headers from stdin")
     source.add_argument("--clipboard", action="store_true", help="read request headers from the clipboard")
     p.add_argument("--authuser", type=int, default=0, help="Google account index when signed in to several")

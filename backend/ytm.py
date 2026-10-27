@@ -4,6 +4,7 @@
 # dependencies = [
 #   "ytmusicapi==1.12.2",
 #   "yt-dlp",
+#   "yt-dlp-ejs",
 #   "secretstorage",
 # ]
 # ///

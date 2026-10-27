@@ -84,6 +84,11 @@ def test_account_cookies_only_when_opted_in(config_dir, monkeypatch):
     assert streams.Resolver().options()["cookiefile"] == str(config_dir / "cookies.txt")
 
 
+def test_resolver_allows_ejs_remote_components():
+    # Without the EJS challenge components YouTube returns storyboards only.
+    assert streams.Resolver().options()["remote_components"] == ["ejs:github"]
+
+
 class FakeResolver:
     def __init__(self, result=None, error=None):
         self.result = result

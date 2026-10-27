@@ -198,6 +198,7 @@ scripts/test.sh
 | Symptom | What to do |
 |---|---|
 | "YouTube Music playback keeps failing" | yt-dlp is probably out of date for a YouTube change: `omarchy update`, then press play (it continues from the song that failed). `mpv --no-video 'https://www.youtube.com/watch?v=…'` shows yt-dlp's own error. |
+| Journal says "Sign in to confirm you're not a bot" or "Requested format is not available" | YouTube only serves audio after its JS challenge components run: keep yt-dlp ≥ 2026.10.21 (the worker ships the `yt-dlp-ejs` package for this). For manual `mpv`/`yt-dlp` runs add `--remote-components ejs:github`. Signed-in streaming itself is opt-in: **Sign in**, then `YTM_STREAM_WITH_ACCOUNT=1` in the environment. |
 | "Can't reach YouTube Music" | No connection. Press play once it's back; the queue is kept. |
 | Sign-in expired (banner, notification) | Make sure you're signed in to YouTube in Chromium, then **Sign in again** (or `bin/ytm auth`). `bin/ytm auth --from-browser chromium:"Profile 1"` picks another profile. |
 | Library, playlist or Home looks stale | It refreshes itself right after showing the cached copy. `rm -rf ~/.cache/omarchy-ytmusic/data` is always safe. |

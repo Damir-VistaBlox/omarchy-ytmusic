@@ -85,6 +85,12 @@ class Resolver:
             "skip_download": True,
             "noplaylist": True,
             "logger": _Quiet(),
+            # YouTube withholds media formats unless its remote JS challenge
+            # components run. yt-dlp-ejs (a worker dependency) usually ships
+            # them locally; ejs:github is the fallback for when the installed
+            # yt-dlp-ejs lags yt-dlp, so resolves self-heal instead of coming
+            # back with storyboards only.
+            "remote_components": ["ejs:github"],
         }
         cookies = auth.cookies_path()
         if stream_with_account() and cookies.exists():

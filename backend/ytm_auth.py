@@ -13,6 +13,7 @@ Pasting request headers is the fallback; it goes through the clipboard, whose
 history Omarchy stores in plain text.
 """
 
+import contextlib
 import json
 import os
 import shutil
@@ -242,6 +243,41 @@ def find_profile(browser, profile=None):
     return None
 
 
+@contextlib.contextmanager
+def skip_hidden_keyring_items():
+    """Let yt-dlp walk a keyring that holds items it is not allowed to read.
+
+    gnome-keyring lists the per-app keys of xdg-desktop-portal's Secret portal
+    (schema ``org.freedesktop.portal.Secret``, e.g. "Application key for
+    com.google.Chrome") in the default collection, but answers every other
+    client's read of them with "Item does not exist". yt-dlp reads the label of
+    every item while looking for "Chromium Safe Storage" and dies on the first
+    hidden one. Skip those items while the cookies are extracted.
+    """
+    try:
+        from secretstorage import item as ss_item
+        from secretstorage.collection import Collection
+        from secretstorage.exceptions import ItemNotFoundException
+    except ImportError:
+        yield
+        return
+
+    original = Collection.get_all_items
+
+    def get_all_items(self):
+        for path in self._collection.get_property("Items"):
+            try:
+                yield ss_item.Item(self.connection, path, self.session)
+            except ItemNotFoundException:
+                continue
+
+    Collection.get_all_items = get_all_items
+    try:
+        yield
+    finally:
+        Collection.get_all_items = original
+
+
 def import_from_browser(browser="chromium", profile=None, authuser=0, keyring="GNOMEKEYRING",
                         factory=None, extractor=None):
     """Sign in with the YouTube cookies of a local browser profile."""
@@ -250,7 +286,8 @@ def import_from_browser(browser="chromium", profile=None, authuser=0, keyring="G
         raise AuthError("no Chromium profile found; pass --from-browser chromium:/path/to/profile")
     if extractor is None:
         from yt_dlp.cookies import extract_cookies_from_browser as extractor
-    jar = extractor(browser, profile=profile, logger=_QuietLogger(), keyring=keyring)
+    with skip_hidden_keyring_items():
+        jar = extractor(browser, profile=profile, logger=_QuietLogger(), keyring=keyring)
     youtube = [c for c in jar if c.domain.endswith("youtube.com")]
     if REQUIRED_COOKIE not in {c.name for c in youtube}:
         raise AuthError("that profile is not signed in to YouTube (open music.youtube.com there and sign in)")

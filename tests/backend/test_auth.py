@@ -150,6 +150,28 @@ def test_browser_import_needs_signed_in_profile(config_dir, tmp_path):
         auth.import_from_browser("chromium", str(tmp_path), factory=FakeClient, extractor=extractor)
 
 
+def test_keyring_walk_skips_hidden_items(monkeypatch):
+    collection = pytest.importorskip("secretstorage.collection")
+    exceptions = pytest.importorskip("secretstorage.exceptions")
+    item = pytest.importorskip("secretstorage.item")
+
+    class FakeItem:
+        def __init__(self, connection, path, session=None):
+            if path.endswith("/hidden"):
+                raise exceptions.ItemNotFoundException("Item does not exist!")
+            self.path = path
+
+    monkeypatch.setattr(item, "Item", FakeItem)
+    keyring = collection.Collection.__new__(collection.Collection)
+    keyring.connection = keyring.session = None
+    keyring._collection = SimpleNamespace(get_property=lambda name: ["/k/hidden", "/k/chromium", "/k/hidden"])
+    original = collection.Collection.get_all_items
+
+    with auth.skip_hidden_keyring_items():
+        assert [i.path for i in keyring.get_all_items()] == ["/k/chromium"]
+    assert collection.Collection.get_all_items is original
+
+
 def test_logout_removes_session(config_dir, monkeypatch):
     fake_setup(monkeypatch)
     auth.import_from_headers("cookie: SID=a; __Secure-3PAPISID=b\n", factory=FakeClient)

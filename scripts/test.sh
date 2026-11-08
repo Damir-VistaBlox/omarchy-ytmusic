@@ -24,5 +24,5 @@ if (( ${#js_tests[@]} > 0 )); then
 fi
 
 echo "== pytest"
-uv run --quiet --no-project --with pytest --with ytmusicapi==1.12.2 \
+uv run --quiet --no-project --with pytest --with ytmusicapi==1.12.2 --with secretstorage \
   pytest -p no:cacheprovider -q tests/backend "$@"

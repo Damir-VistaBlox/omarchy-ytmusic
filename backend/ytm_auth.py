@@ -244,15 +244,23 @@ def find_profile(browser, profile=None):
 
 
 @contextlib.contextmanager
-def skip_hidden_keyring_items():
-    """Let yt-dlp walk a keyring that holds items it is not allowed to read.
+def browser_keyring_view(application):
+    """Show yt-dlp only the keyring items it should see while it looks for a browser's key.
 
-    gnome-keyring lists the per-app keys of xdg-desktop-portal's Secret portal
-    (schema ``org.freedesktop.portal.Secret``, e.g. "Application key for
-    com.google.Chrome") in the default collection, but answers every other
-    client's read of them with "Item does not exist". yt-dlp reads the label of
-    every item while looking for "Chromium Safe Storage" and dies on the first
-    hidden one. Skip those items while the cookies are extracted.
+    yt-dlp walks every item in the default collection and takes the first one
+    labelled "<Browser> Safe Storage". Two things on an ordinary desktop break
+    that walk:
+
+    - gnome-keyring lists the per-app keys of xdg-desktop-portal's Secret
+      portal (schema ``org.freedesktop.portal.Secret``, e.g. "Application key
+      for com.google.Chrome") but answers every other client's read of them
+      with "Item does not exist", which crashes the walk.
+    - Electron apps such as VS Code keep their own key under the same
+      "Chromium Safe Storage" label, told apart only by the ``application``
+      attribute, so yt-dlp can take the wrong key and decrypt nothing.
+
+    Hidden items are skipped. Among items that share a label, the ones whose
+    ``application`` attribute is ``application`` win when there are any.
     """
     try:
         from secretstorage import item as ss_item
@@ -265,18 +273,24 @@ def skip_hidden_keyring_items():
     original = Collection.get_all_items
 
     def get_all_items(self):
+        visible = []
         for path in self._collection.get_property("Items"):
             try:
-                yield ss_item.Item(self.connection, path, self.session)
+                item = ss_item.Item(self.connection, path, self.session)
+                visible.append((item, item.get_label(), item.get_attributes().get("application")))
             except ItemNotFoundException:
                 continue
+        owned = {label for _, label, app in visible if app == application}
+        for item, label, app in visible:
+            if label in owned and app != application:
+                continue
+            yield item
 
     Collection.get_all_items = get_all_items
     try:
         yield
     finally:
         Collection.get_all_items = original
-
 
 def import_from_browser(browser="chromium", profile=None, authuser=0, keyring="GNOMEKEYRING",
                         factory=None, extractor=None):
@@ -286,7 +300,7 @@ def import_from_browser(browser="chromium", profile=None, authuser=0, keyring="G
         raise AuthError("no Chromium profile found; pass --from-browser chromium:/path/to/profile")
     if extractor is None:
         from yt_dlp.cookies import extract_cookies_from_browser as extractor
-    with skip_hidden_keyring_items():
+    with browser_keyring_view(browser):
         jar = extractor(browser, profile=profile, logger=_QuietLogger(), keyring=keyring)
     youtube = [c for c in jar if c.domain.endswith("youtube.com")]
     if REQUIRED_COOKIE not in {c.name for c in youtube}:

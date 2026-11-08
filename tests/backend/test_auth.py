@@ -150,27 +150,40 @@ def test_browser_import_needs_signed_in_profile(config_dir, tmp_path):
         auth.import_from_browser("chromium", str(tmp_path), factory=FakeClient, extractor=extractor)
 
 
-def test_keyring_walk_skips_hidden_items(monkeypatch):
+def test_keyring_view_skips_hidden_items_and_other_apps_keys(monkeypatch):
     collection = pytest.importorskip("secretstorage.collection")
     exceptions = pytest.importorskip("secretstorage.exceptions")
     item = pytest.importorskip("secretstorage.item")
+    keys = {
+        "/k/portal": None,  # Secret portal app key: listed, but gnome-keyring refuses the read
+        "/k/code": ("Chromium Safe Storage", "Code"),  # VS Code's Electron key, same label
+        "/k/chromium": ("Chromium Safe Storage", "chromium"),
+        "/k/claude": ("Claude Safe Storage", "Claude"),
+    }
 
     class FakeItem:
         def __init__(self, connection, path, session=None):
-            if path.endswith("/hidden"):
+            if keys[path] is None:
                 raise exceptions.ItemNotFoundException("Item does not exist!")
             self.path = path
+
+        def get_label(self):
+            return keys[self.path][0]
+
+        def get_attributes(self):
+            return {"application": keys[self.path][1]}
 
     monkeypatch.setattr(item, "Item", FakeItem)
     keyring = collection.Collection.__new__(collection.Collection)
     keyring.connection = keyring.session = None
-    keyring._collection = SimpleNamespace(get_property=lambda name: ["/k/hidden", "/k/chromium", "/k/hidden"])
+    keyring._collection = SimpleNamespace(get_property=lambda name: list(keys))
     original = collection.Collection.get_all_items
 
-    with auth.skip_hidden_keyring_items():
-        assert [i.path for i in keyring.get_all_items()] == ["/k/chromium"]
+    with auth.browser_keyring_view("chromium"):
+        assert [i.path for i in keyring.get_all_items()] == ["/k/chromium", "/k/claude"]
+    with auth.browser_keyring_view("brave"):  # no key of its own: nothing is filtered by owner
+        assert [i.path for i in keyring.get_all_items()] == ["/k/code", "/k/chromium", "/k/claude"]
     assert collection.Collection.get_all_items is original
-
 
 def test_logout_removes_session(config_dir, monkeypatch):
     fake_setup(monkeypatch)
